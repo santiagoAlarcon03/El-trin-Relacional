@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "catalogos_optica",
+    "especialidades": [
+      {
+        "nombre": "Optometrﾃｭa",
+        "descripcion": "Especialidad en salud visual y prescripciﾃｳn de lentes"
+      },
+      {
+        "nombre": "Oftalmologﾃｭa",
+        "descripcion": "Especialidad mﾃｩdica para enfermedades oculares"
+      },
+      {
+        "nombre": "Contactologﾃｭa",
+        "descripcion": "Especialidad en lentes de contacto"
+      }
+    ],
+    "motivos": [
+      {
+        "descripcion": "Ajuste de monturas"
+      },
+      {
+        "descripcion": "Consulta por molestias visuales"
+      },
+      {
+        "descripcion": "Control post-compra"
+      },
+      {
+        "descripcion": "Examen visual de rutina"
+      },
+      {
+        "descripcion": "Revisiﾃｳn de lentes"
+      }
+    ],
+    "tipos_diagnostico": [
+      {
+        "nombre": "Miopﾃｭa",
+        "descripcion": "Dificultad para ver objetos lejanos"
+      },
+      {
+        "nombre": "Hipermetropﾃｭa",
+        "descripcion": "Dificultad para ver objetos cercanos"
+      },
+      {
+        "nombre": "Astigmatismo",
+        "descripcion": "Visiﾃｳn distorsionada o borrosa"
+      },
+      {
+        "nombre": "Presbicia",
+        "descripcion": "Dificultad para enfocar objetos cercanos por edad"
+      }
+    ],
+    "metodos_pago": [
+      {
+        "nombre": "Efectivo",
+        "activo": true
+      },
+      {
+        "nombre": "Tarjeta de Crﾃｩdito",
+        "activo": true
+      },
+      {
+        "nombre": "Tarjeta de Dﾃｩbito",
+        "activo": true
+      },
+      {
+        "nombre": "Transferencia Bancaria",
+        "activo": true
+      },
+      {
+        "nombre": "PSE",
+        "activo": true
+      }
+    ],
+    "tipos_suministro": [
+      {
+        "nombre": "Lentes oftﾃ｡lmicos",
+        "descripcion": "Cristales para gafas formuladas"
+      },
+      {
+        "nombre": "Lentes de contacto",
+        "descripcion": "Lentes de contacto blandos y rﾃｭgidos"
+      },
+      {
+        "nombre": "Monturas",
+        "descripcion": "Armazones para lentes"
+      },
+      {
+        "nombre": "Accesorios",
+        "descripcion": "Estuches, paﾃｱos, lﾃｭquidos de limpieza"
+      }
+    ],
+    "tipos_producto": [
+      {
+        "nombre": "Gafas formuladas",
+        "categoria": "Lente"
+      },
+      {
+        "nombre": "Gafas de sol",
+        "categoria": "Accesorio"
+      },
+      {
+        "nombre": "Lentes de contacto",
+        "categoria": "Contacto"
+      },
+      {
+        "nombre": "Monturas oftﾃ｡lmicas",
+        "categoria": "Montura"
+      },
+      {
+        "nombre": "Estuches",
+        "categoria": "Accesorio"
+      },
+      {
+        "nombre": "Lﾃｭquidos de limpieza",
+        "categoria": "Accesorio"
+      }
+    ]
+  }
+]

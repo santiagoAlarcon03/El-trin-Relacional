@@ -1,0 +1,1156 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afa91a3e87e1645cd6ea"
+    },
+    "nombre": "Carolina",
+    "apellido": "Castro",
+    "email": "carolina.castro0@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1978-01-17T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-02-19T01:09:45.953Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=70",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1933638521"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 100 #51-92",
+        "ciudad": "Cartagena",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110563",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3138278282",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6eb"
+    },
+    "nombre": "Camilo",
+    "apellido": "González",
+    "email": "camilo.gonzález1@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1989-02-25T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2025-06-17T01:09:46.048Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=66",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1855830447"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 123 #88-91",
+        "ciudad": "Medellín",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110913",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3167430668",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6ec"
+    },
+    "nombre": "Camila",
+    "apellido": "Morales",
+    "email": "camila.morales2@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1985-05-14T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2024-01-20T01:09:46.130Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=17",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1633429115"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 177 #92-38",
+        "ciudad": "Cúcuta",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110361",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3116851544",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6ed"
+    },
+    "nombre": "Mariana",
+    "apellido": "Pérez",
+    "email": "mariana.pérez3@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-298944000000"
+      }
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2024-07-26T01:09:46.220Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=61",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1988225463"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 106 #79-87",
+        "ciudad": "Cúcuta",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110039",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3127683146",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "nombre": "Daniel",
+    "apellido": "Medina",
+    "email": "daniel.medina4@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1990-02-15T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2024-10-11T01:09:46.299Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=3",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1263783863"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 72 #44-7",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110006",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3127386076",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6ef"
+    },
+    "nombre": "Claudia",
+    "apellido": "Guerrero",
+    "email": "claudia.guerrero5@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1990-04-25T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-07-15T01:09:46.379Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=20",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1372543233"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 6 #87-20",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110814",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3171303950",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f0"
+    },
+    "nombre": "Laura",
+    "apellido": "Flores",
+    "email": "laura.flores6@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1996-04-17T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-12-15T01:09:46.458Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=64",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1415545833"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 199 #46-91",
+        "ciudad": "Armenia",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110373",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3132701166",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f1"
+    },
+    "nombre": "Mateo",
+    "apellido": "Mendoza",
+    "email": "mateo.mendoza7@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2005-05-02T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-12-25T01:09:46.537Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=31",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1320542201"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 46 #99-73",
+        "ciudad": "Medellín",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110212",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3104523612",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f2"
+    },
+    "nombre": "Sofía",
+    "apellido": "Martínez",
+    "email": "sofía.martínez8@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1998-01-16T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2025-02-23T01:09:46.636Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=58",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1624987271"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 73 #11-93",
+        "ciudad": "Barranquilla",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110780",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3193967561",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f3"
+    },
+    "nombre": "Claudia",
+    "apellido": "Mendoza",
+    "email": "claudia.mendoza9@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1982-08-12T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2023-08-26T01:09:46.716Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=52",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1255974598"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 192 #59-6",
+        "ciudad": "Pereira",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110227",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3198354302",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f4"
+    },
+    "nombre": "David",
+    "apellido": "Rojas",
+    "email": "david.rojas10@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1970-04-09T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-05-04T01:09:46.801Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=56",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1562327560"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 178 #58-65",
+        "ciudad": "Cali",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110732",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3135251814",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f5"
+    },
+    "nombre": "Alejandra",
+    "apellido": "Martínez",
+    "email": "alejandra.martínez11@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2004-07-13T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-09-14T01:09:46.880Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=33",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1661583974"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 51 #56-58",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110702",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3188281371",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaa1a3e87e1645cd6f6"
+    },
+    "nombre": "Andrés",
+    "apellido": "Silva",
+    "email": "andrés.silva12@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1986-11-23T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-02-22T01:09:46.972Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=9",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1994817685"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 14 #39-26",
+        "ciudad": "Cartagena",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110592",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3110839897",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6f7"
+    },
+    "nombre": "Fernando",
+    "apellido": "López",
+    "email": "fernando.lópez13@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2002-09-03T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-10-19T01:09:47.067Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=39",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1826656778"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 192 #78-72",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110068",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3170002587",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6f8"
+    },
+    "nombre": "Alejandro",
+    "apellido": "Ramos",
+    "email": "alejandro.ramos14@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2001-05-08T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-07-13T01:09:47.147Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=21",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1600251189"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 160 #34-63",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110282",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3180282929",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6f9"
+    },
+    "nombre": "Diana",
+    "apellido": "García",
+    "email": "diana.garcía15@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1979-06-05T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2025-03-18T01:09:47.228Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=10",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1707995530"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 21 #38-33",
+        "ciudad": "Manizales",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110702",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3123056763",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6fa"
+    },
+    "nombre": "Claudia",
+    "apellido": "Castro",
+    "email": "claudia.castro16@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1980-04-28T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-10-21T01:09:47.309Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=14",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1714692158"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 71 #51-64",
+        "ciudad": "Armenia",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110705",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3189912902",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6fb"
+    },
+    "nombre": "María",
+    "apellido": "González",
+    "email": "maría.gonzález17@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1989-08-27T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-05-11T01:09:47.389Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=60",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1346491135"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 29 #72-46",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110017",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3189224163",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6fc"
+    },
+    "nombre": "Valentina",
+    "apellido": "Silva",
+    "email": "valentina.silva18@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-183600000000"
+      }
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2025-06-24T01:09:47.470Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=57",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1234394683"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 159 #86-67",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110195",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3168208153",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6fd"
+    },
+    "nombre": "Carolina",
+    "apellido": "Sánchez",
+    "email": "carolina.sánchez19@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1985-01-12T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2025-05-23T01:09:47.580Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=64",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1696728048"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 65 #67-20",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110869",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3153929611",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6fe"
+    },
+    "nombre": "Claudia",
+    "apellido": "Romero",
+    "email": "claudia.romero20@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2004-03-25T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2025-03-24T01:09:47.660Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=33",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1065293031"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 81 #76-60",
+        "ciudad": "Cali",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110518",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3121297015",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd6ff"
+    },
+    "nombre": "Daniel",
+    "apellido": "Medina",
+    "email": "daniel.medina21@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-37584000000"
+      }
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-04-11T01:09:47.747Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=9",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1584171898"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 119 #54-99",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110094",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3114964615",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd700"
+    },
+    "nombre": "Fernando",
+    "apellido": "Ramírez",
+    "email": "fernando.ramírez22@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-212544000000"
+      }
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-04-20T01:09:47.829Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=65",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1940118697"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 191 #85-50",
+        "ciudad": "Manizales",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110944",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3142932755",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd701"
+    },
+    "nombre": "Patricia",
+    "apellido": "Morales",
+    "email": "patricia.morales23@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-150768000000"
+      }
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-03-06T01:09:47.908Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=9",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1491544493"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 8 #37-10",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110478",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3146054330",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afab1a3e87e1645cd702"
+    },
+    "nombre": "Camilo",
+    "apellido": "García",
+    "email": "camilo.garcía24@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1982-06-19T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2024-01-31T01:09:47.989Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=21",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1216345241"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 53 #72-87",
+        "ciudad": "Barranquilla",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110326",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3186628884",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd703"
+    },
+    "nombre": "Carlos",
+    "apellido": "Medina",
+    "email": "carlos.medina25@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1987-11-24T00:00:00Z"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2023-04-29T01:09:48.071Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=62",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1613218666"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 141 #58-96",
+        "ciudad": "Barranquilla",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110844",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3132195580",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd704"
+    },
+    "nombre": "Daniel",
+    "apellido": "Díaz",
+    "email": "daniel.díaz26@mail.com",
+    "fecha_nacimiento": {
+      "$date": "2001-04-04T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2023-04-03T01:09:48.157Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=28",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1551183633"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 9 #23-51",
+        "ciudad": "Cartagena",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110132",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3153219963",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd705"
+    },
+    "nombre": "Felipe",
+    "apellido": "Vargas",
+    "email": "felipe.vargas27@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-11923200000"
+      }
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2023-06-06T01:09:48.239Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=39",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1611138871"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 129 #51-81",
+        "ciudad": "Cúcuta",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110592",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3196283136",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd706"
+    },
+    "nombre": "Claudia",
+    "apellido": "López",
+    "email": "claudia.lópez28@mail.com",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-162086400000"
+      }
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2024-11-04T01:09:48.319Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=59",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1832899743"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 174 #90-11",
+        "ciudad": "Pereira",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110477",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3147038111",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd707"
+    },
+    "nombre": "Gabriela",
+    "apellido": "Martínez",
+    "email": "gabriela.martínez29@mail.com",
+    "fecha_nacimiento": {
+      "$date": "1978-09-19T00:00:00Z"
+    },
+    "activo": false,
+    "fecha_registro": {
+      "$date": "2025-05-23T01:09:48.397Z"
+    },
+    "foto_perfil": "https://i.pravatar.cc/300?img=68",
+    "documento": {
+      "tipo": "CE",
+      "numero": "1538899641"
+    },
+    "direcciones": [
+      {
+        "tipo": "Principal",
+        "calle": "Calle 145 #35-61",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110347",
+        "pais": "Colombia",
+        "es_principal": true
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3124991981",
+        "tipo": "Móvil",
+        "es_principal": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd728"
+    },
+    "nombre_producto": "Arnette Monturas oftálmicas Modelo-1",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Arnette",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Arnette",
+    "precio_venta": 231560.35,
+    "stock": 15,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456000",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd723"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2024-12-22T01:09:51.133Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd729"
+    },
+    "nombre_producto": "Prada Gafas formuladas Modelo-2",
+    "tipo": {
+      "nombre": "Gafas formuladas",
+      "categoria": "Lente"
+    },
+    "marca": "Prada",
+    "descripcion": "Gafas formuladas de alta calidad marca Prada",
+    "precio_venta": 569863.93,
+    "stock": 13,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456001",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd724"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2024-12-10T01:09:51.212Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1574258495973-f010dfbb5371",
+      "https://images.unsplash.com/photo-1509695507497-903c140c43b0"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72a"
+    },
+    "nombre_producto": "Persol Lentes de contacto Modelo-3",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Persol",
+    "descripcion": "Lentes de contacto de alta calidad marca Persol",
+    "precio_venta": 206024.53,
+    "stock": 78,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456002",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd721"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-01-23T01:09:51.302Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72b"
+    },
+    "nombre_producto": "Prada Lentes de contacto Modelo-4",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Prada",
+    "descripcion": "Lentes de contacto de alta calidad marca Prada",
+    "precio_venta": 407608.67,
+    "stock": 93,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456003",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd723"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-09-16T01:09:51.384Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72c"
+    },
+    "nombre_producto": "Oakley Monturas oftálmicas Modelo-5",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Oakley",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Oakley",
+    "precio_venta": 645559.99,
+    "stock": 60,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456004",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd71e"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-03-24T01:09:51.463Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72d"
+    },
+    "nombre_producto": "Vogue Monturas oftálmicas Modelo-6",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Vogue",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Vogue",
+    "precio_venta": 439625.19,
+    "stock": 6,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456005",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd723"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2024-11-30T01:09:51.548Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1509695507497-903c140c43b0",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72e"
+    },
+    "nombre_producto": "Prada Monturas oftálmicas Modelo-7",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Prada",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Prada",
+    "precio_venta": 125145.02,
+    "stock": 31,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456006",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd721"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2024-12-08T01:09:51.631Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd72f"
+    },
+    "nombre_producto": "Ray-Ban Lentes de contacto Modelo-8",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Ray-Ban",
+    "descripcion": "Lentes de contacto de alta calidad marca Ray-Ban",
+    "precio_venta": 634655.52,
+    "stock": 16,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456007",
+    "suministro_ref": {
+      "$oid": "6901afaf1a3e87e1645cd727"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-09-29T01:09:51.710Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd730"
+    },
+    "nombre_producto": "Police Monturas oftálmicas Modelo-9",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Police",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Police",
+    "precio_venta": 230649.31,
+    "stock": 69,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456008",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd723"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-06-27T01:09:51.796Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+      "https://images.unsplash.com/photo-1577803645773-f96470509666"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd731"
+    },
+    "nombre_producto": "Prada Lentes de contacto Modelo-10",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Prada",
+    "descripcion": "Lentes de contacto de alta calidad marca Prada",
+    "precio_venta": 687885.51,
+    "stock": 81,
+    "stock_minimo": 5,
+    "codigo_barras": "7890123456009",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd721"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-03-24T01:09:51.908Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144",
+      "https://images.unsplash.com/photo-1577803645773-f96470509666"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd732"
+    },
+    "nombre_producto": "Carrera Lentes de contacto Modelo-11",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Carrera",
+    "descripcion": "Lentes de contacto de alta calidad marca Carrera",
+    "precio_venta": 556629.2,
+    "stock": 58,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560010",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd720"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-05-28T01:09:51.988Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+      "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd733"
+    },
+    "nombre_producto": "Vogue Gafas formuladas Modelo-12",
+    "tipo": {
+      "nombre": "Gafas formuladas",
+      "categoria": "Lente"
+    },
+    "marca": "Vogue",
+    "descripcion": "Gafas formuladas de alta calidad marca Vogue",
+    "precio_venta": 425594.99,
+    "stock": 69,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560011",
+    "suministro_ref": {
+      "$oid": "6901afaf1a3e87e1645cd727"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-06-17T01:09:52.078Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd734"
+    },
+    "nombre_producto": "Persol Monturas oftálmicas Modelo-13",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Persol",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Persol",
+    "precio_venta": 590900.57,
+    "stock": 53,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560012",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd724"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-09-21T01:09:52.157Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd735"
+    },
+    "nombre_producto": "Carrera Lentes de contacto Modelo-14",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Carrera",
+    "descripcion": "Lentes de contacto de alta calidad marca Carrera",
+    "precio_venta": 787041.41,
+    "stock": 32,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560013",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd722"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-09-10T01:09:52.235Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd736"
+    },
+    "nombre_producto": "Oakley Gafas formuladas Modelo-15",
+    "tipo": {
+      "nombre": "Gafas formuladas",
+      "categoria": "Lente"
+    },
+    "marca": "Oakley",
+    "descripcion": "Gafas formuladas de alta calidad marca Oakley",
+    "precio_venta": 193576.64,
+    "stock": 28,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560014",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd726"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-02-21T01:09:52.314Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+      "https://images.unsplash.com/photo-1509695507497-903c140c43b0"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd737"
+    },
+    "nombre_producto": "Gucci Gafas de sol Modelo-16",
+    "tipo": {
+      "nombre": "Gafas de sol",
+      "categoria": "Lente"
+    },
+    "marca": "Gucci",
+    "descripcion": "Gafas de sol de alta calidad marca Gucci",
+    "precio_venta": 284765.08,
+    "stock": 71,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560015",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd71f"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-08-20T01:09:52.394Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd738"
+    },
+    "nombre_producto": "Ray-Ban Lentes de contacto Modelo-17",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Ray-Ban",
+    "descripcion": "Lentes de contacto de alta calidad marca Ray-Ban",
+    "precio_venta": 660097.59,
+    "stock": 65,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560016",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd725"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-02-25T01:09:52.473Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd739"
+    },
+    "nombre_producto": "Persol Gafas formuladas Modelo-18",
+    "tipo": {
+      "nombre": "Gafas formuladas",
+      "categoria": "Lente"
+    },
+    "marca": "Persol",
+    "descripcion": "Gafas formuladas de alta calidad marca Persol",
+    "precio_venta": 401374.04,
+    "stock": 55,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560017",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd721"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-04-10T01:09:52.553Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229",
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd73a"
+    },
+    "nombre_producto": "Oakley Monturas oftálmicas Modelo-19",
+    "tipo": {
+      "nombre": "Monturas oftálmicas",
+      "categoria": "Montura"
+    },
+    "marca": "Oakley",
+    "descripcion": "Monturas oftálmicas de alta calidad marca Oakley",
+    "precio_venta": 209175.89,
+    "stock": 10,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560018",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd722"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-08-13T01:09:52.641Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4",
+      "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd73b"
+    },
+    "nombre_producto": "Prada Lentes de contacto Modelo-20",
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "categoria": "Lente"
+    },
+    "marca": "Prada",
+    "descripcion": "Lentes de contacto de alta calidad marca Prada",
+    "precio_venta": 261026.93,
+    "stock": 22,
+    "stock_minimo": 5,
+    "codigo_barras": "78901234560019",
+    "suministro_ref": {
+      "$oid": "6901afae1a3e87e1645cd720"
+    },
+    "activo": true,
+    "fecha_creacion": {
+      "$date": "2025-04-12T01:09:52.732Z"
+    },
+    "imagenes": [
+      "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+      "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+    ]
+  }
+]

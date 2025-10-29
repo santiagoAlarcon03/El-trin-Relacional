@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd71b"
+    },
+    "nombre_laboratorio": "LabVisión Colombia",
+    "contacto_principal": "Alejandro Gómez",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=LabVisiónColombia",
+    "direcciones": [
+      {
+        "calle": "Avenida 16 #72-99",
+        "ciudad": "Bogotá",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110054",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "617970575",
+        "extension": "711"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd71c"
+    },
+    "nombre_laboratorio": "CristalLab",
+    "contacto_principal": "Alejandro López",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=CristalLab",
+    "direcciones": [
+      {
+        "calle": "Avenida 9 #88-49",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110387",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "611505705",
+        "extension": "247"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd71d"
+    },
+    "nombre_laboratorio": "LenteFino Labs",
+    "contacto_principal": "Camilo Silva",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=LenteFinoLabs",
+    "direcciones": [
+      {
+        "calle": "Avenida 49 #23-81",
+        "ciudad": "Bucaramanga",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110928",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "614817267",
+        "extension": "723"
+      }
+    ]
+  }
+]

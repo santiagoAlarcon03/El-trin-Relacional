@@ -1,0 +1,530 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd74b"
+    },
+    "fecha_examen": {
+      "$date": "2025-05-21T01:09:54.080Z"
+    },
+    "agudeza_visual_od": "20/40",
+    "agudeza_visual_oi": "20/40",
+    "esfera_od": -3.14,
+    "esfera_oi": -2.94,
+    "cilindro_od": -1.56,
+    "cilindro_oi": -2.02,
+    "eje_od": 159,
+    "eje_oi": 8,
+    "distancia_pupilar": 61.4,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f4"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Miopía",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Hipermetropía leve bilateral",
+      "fecha": {
+        "$date": "2025-07-04T01:09:54.080Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: 2.36 -2.62 x 105",
+      "fecha_emision": {
+        "$date": "2025-08-24T01:09:54.080Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.080Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd74c"
+    },
+    "fecha_examen": {
+      "$date": "2025-06-20T01:09:54.160Z"
+    },
+    "agudeza_visual_od": "20/50",
+    "agudeza_visual_oi": "20/30",
+    "esfera_od": -0.12,
+    "esfera_oi": 1.2,
+    "cilindro_od": -0.29,
+    "cilindro_oi": -0.42,
+    "eje_od": 48,
+    "eje_oi": 18,
+    "distancia_pupilar": 59.5,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fa"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Presbicia",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Hipermetropía leve bilateral",
+      "fecha": {
+        "$date": "2025-10-26T01:09:54.160Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -0.3 -2.93 x 58",
+      "fecha_emision": {
+        "$date": "2025-10-23T01:09:54.160Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.160Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd74d"
+    },
+    "fecha_examen": {
+      "$date": "2025-10-01T01:09:54.242Z"
+    },
+    "agudeza_visual_od": "20/50",
+    "agudeza_visual_oi": "20/20",
+    "esfera_od": 0.87,
+    "esfera_oi": 0.49,
+    "cilindro_od": -1.47,
+    "cilindro_oi": -2.03,
+    "eje_od": 173,
+    "eje_oi": 55,
+    "distancia_pupilar": 65.8,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fc"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd711"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Presbicia",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Miopía leve bilateral",
+      "fecha": {
+        "$date": "2025-05-11T01:09:54.242Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -0.18 -1.34 x 154",
+      "fecha_emision": {
+        "$date": "2025-10-14T01:09:54.242Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.242Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd74e"
+    },
+    "fecha_examen": {
+      "$date": "2025-05-13T01:09:54.328Z"
+    },
+    "agudeza_visual_od": "20/50",
+    "agudeza_visual_oi": "20/25",
+    "esfera_od": -3.87,
+    "esfera_oi": -4.2,
+    "cilindro_od": -1.24,
+    "cilindro_oi": -0.7,
+    "eje_od": 69,
+    "eje_oi": 81,
+    "distancia_pupilar": 60.4,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd705"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd712"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Astigmatismo",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Presbicia leve bilateral",
+      "fecha": {
+        "$date": "2025-05-07T01:09:54.328Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -4.76 -1.59 x 71",
+      "fecha_emision": {
+        "$date": "2025-06-21T01:09:54.328Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.328Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd74f"
+    },
+    "fecha_examen": {
+      "$date": "2025-08-02T01:09:54.412Z"
+    },
+    "agudeza_visual_od": "20/40",
+    "agudeza_visual_oi": "20/20",
+    "esfera_od": -5.22,
+    "esfera_oi": 0.64,
+    "cilindro_od": -1.73,
+    "cilindro_oi": -0.13,
+    "eje_od": 162,
+    "eje_oi": 92,
+    "distancia_pupilar": 60.8,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fb"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd714"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Presbicia",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Astigmatismo leve bilateral",
+      "fecha": {
+        "$date": "2025-07-15T01:09:54.412Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -2.51 -0.81 x 23",
+      "fecha_emision": {
+        "$date": "2025-06-10T01:09:54.412Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.412Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd750"
+    },
+    "fecha_examen": {
+      "$date": "2025-06-30T01:09:54.492Z"
+    },
+    "agudeza_visual_od": "20/20",
+    "agudeza_visual_oi": "20/40",
+    "esfera_od": 0.21,
+    "esfera_oi": -1.17,
+    "cilindro_od": -0.74,
+    "cilindro_oi": -0.11,
+    "eje_od": 38,
+    "eje_oi": 70,
+    "distancia_pupilar": 60.7,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ec"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Astigmatismo",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Astigmatismo leve bilateral",
+      "fecha": {
+        "$date": "2025-07-11T01:09:54.492Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: 2.49 -1.11 x 7",
+      "fecha_emision": {
+        "$date": "2025-07-03T01:09:54.492Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.492Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd751"
+    },
+    "fecha_examen": {
+      "$date": "2025-09-25T01:09:54.572Z"
+    },
+    "agudeza_visual_od": "20/50",
+    "agudeza_visual_oi": "20/25",
+    "esfera_od": 2.17,
+    "esfera_oi": 1.02,
+    "cilindro_od": -0.72,
+    "cilindro_oi": -1.91,
+    "eje_od": 32,
+    "eje_oi": 48,
+    "distancia_pupilar": 61.3,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f3"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd712"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Miopía",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Astigmatismo leve bilateral",
+      "fecha": {
+        "$date": "2025-10-16T01:09:54.572Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -4.52 -1.42 x 97",
+      "fecha_emision": {
+        "$date": "2025-05-24T01:09:54.572Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.572Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd752"
+    },
+    "fecha_examen": {
+      "$date": "2025-07-12T01:09:54.663Z"
+    },
+    "agudeza_visual_od": "20/30",
+    "agudeza_visual_oi": "20/50",
+    "esfera_od": -4.24,
+    "esfera_oi": -4.62,
+    "cilindro_od": -2.48,
+    "cilindro_oi": -2.64,
+    "eje_od": 58,
+    "eje_oi": 82,
+    "distancia_pupilar": 63.2,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd701"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Miopía",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Astigmatismo leve bilateral",
+      "fecha": {
+        "$date": "2025-07-31T01:09:54.663Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -1.57 -2.91 x 105",
+      "fecha_emision": {
+        "$date": "2025-08-05T01:09:54.663Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.663Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd753"
+    },
+    "fecha_examen": {
+      "$date": "2025-07-04T01:09:54.744Z"
+    },
+    "agudeza_visual_od": "20/30",
+    "agudeza_visual_oi": "20/20",
+    "esfera_od": -3.68,
+    "esfera_oi": 1.94,
+    "cilindro_od": -2.45,
+    "cilindro_oi": -0.25,
+    "eje_od": 18,
+    "eje_oi": 136,
+    "distancia_pupilar": 65.9,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f6"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Hipermetropía",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Miopía leve bilateral",
+      "fecha": {
+        "$date": "2025-09-09T01:09:54.744Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -1.25 -2.94 x 150",
+      "fecha_emision": {
+        "$date": "2025-05-26T01:09:54.744Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.744Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd754"
+    },
+    "fecha_examen": {
+      "$date": "2025-05-16T01:09:54.834Z"
+    },
+    "agudeza_visual_od": "20/30",
+    "agudeza_visual_oi": "20/20",
+    "esfera_od": 2.64,
+    "esfera_oi": -3.16,
+    "cilindro_od": -0.63,
+    "cilindro_oi": -0.9,
+    "eje_od": 63,
+    "eje_oi": 137,
+    "distancia_pupilar": 58.8,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6ff"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Presbicia",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Presbicia leve bilateral",
+      "fecha": {
+        "$date": "2025-05-29T01:09:54.834Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -3.9 -0.91 x 87",
+      "fecha_emision": {
+        "$date": "2025-07-27T01:09:54.834Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.834Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb21a3e87e1645cd755"
+    },
+    "fecha_examen": {
+      "$date": "2025-08-06T01:09:54.930Z"
+    },
+    "agudeza_visual_od": "20/30",
+    "agudeza_visual_oi": "20/50",
+    "esfera_od": -0.76,
+    "esfera_oi": 2.45,
+    "cilindro_od": -2.28,
+    "cilindro_oi": -1.28,
+    "eje_od": 145,
+    "eje_oi": 68,
+    "distancia_pupilar": 59.9,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fa"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd711"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Astigmatismo",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Hipermetropía leve bilateral",
+      "fecha": {
+        "$date": "2025-09-17T01:09:54.931Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: -1.31 -2.25 x 31",
+      "fecha_emision": {
+        "$date": "2025-06-22T01:09:54.931Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:54.931Z"
+      },
+      "activa": true
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb31a3e87e1645cd756"
+    },
+    "fecha_examen": {
+      "$date": "2025-08-09T01:09:55.010Z"
+    },
+    "agudeza_visual_od": "20/40",
+    "agudeza_visual_oi": "20/20",
+    "esfera_od": -0.03,
+    "esfera_oi": -5.28,
+    "cilindro_od": -1.11,
+    "cilindro_oi": -0.26,
+    "eje_od": 107,
+    "eje_oi": 79,
+    "distancia_pupilar": 60.1,
+    "observaciones": "Examen visual completo realizado",
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd701"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd714"
+    },
+    "diagnostico": {
+      "tipo": {
+        "nombre": "Hipermetropía",
+        "descripcion": "Diagnóstico visual"
+      },
+      "descripcion": "Hipermetropía leve bilateral",
+      "fecha": {
+        "$date": "2025-10-20T01:09:55.010Z"
+      }
+    },
+    "formula": {
+      "descripcion": "OD: 2.2 -1.68 x 81",
+      "fecha_emision": {
+        "$date": "2025-09-01T01:09:55.010Z"
+      },
+      "fecha_vencimiento": {
+        "$date": "2026-10-29T01:09:55.010Z"
+      },
+      "activa": true
+    }
+  }
+]

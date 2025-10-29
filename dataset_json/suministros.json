@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd71e"
+    },
+    "tipo": {
+      "nombre": "Lentes oftálmicos",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 292,
+    "precio_unitario": 27877.99,
+    "fecha_ingreso": {
+      "$date": "2025-02-26T01:09:50.307Z"
+    },
+    "numero_lote": "LOTE-2025-1000",
+    "fecha_vencimiento": {
+      "$date": "2028-02-09T01:09:50.307Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd719"
+    },
+    "laboratorio_ref": {
+      "$oid": "6901afae1a3e87e1645cd71b"
+    },
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd71f"
+    },
+    "tipo": {
+      "nombre": "Accesorios",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 107,
+    "precio_unitario": 110125.83,
+    "fecha_ingreso": {
+      "$date": "2024-11-30T01:09:50.385Z"
+    },
+    "numero_lote": "LOTE-2025-1001",
+    "fecha_vencimiento": {
+      "$date": "2028-07-28T01:09:50.385Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd718"
+    },
+    "laboratorio_ref": null,
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd720"
+    },
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 275,
+    "precio_unitario": 100782.22,
+    "fecha_ingreso": {
+      "$date": "2025-07-10T01:09:50.463Z"
+    },
+    "numero_lote": "LOTE-2025-1002",
+    "fecha_vencimiento": {
+      "$date": "2028-06-19T01:09:50.463Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd71a"
+    },
+    "laboratorio_ref": {
+      "$oid": "6901afae1a3e87e1645cd71d"
+    },
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd721"
+    },
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 462,
+    "precio_unitario": 93772.93,
+    "fecha_ingreso": {
+      "$date": "2024-11-26T01:09:50.557Z"
+    },
+    "numero_lote": "LOTE-2025-1003",
+    "fecha_vencimiento": {
+      "$date": "2028-04-14T01:09:50.557Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd718"
+    },
+    "laboratorio_ref": null,
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd722"
+    },
+    "tipo": {
+      "nombre": "Monturas",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 309,
+    "precio_unitario": 122687.67,
+    "fecha_ingreso": {
+      "$date": "2024-11-23T01:09:50.643Z"
+    },
+    "numero_lote": "LOTE-2025-1004",
+    "fecha_vencimiento": {
+      "$date": "2027-01-17T01:09:50.643Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd71a"
+    },
+    "laboratorio_ref": null,
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd723"
+    },
+    "tipo": {
+      "nombre": "Accesorios",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 235,
+    "precio_unitario": 90494.21,
+    "fecha_ingreso": {
+      "$date": "2025-06-24T01:09:50.725Z"
+    },
+    "numero_lote": "LOTE-2025-1005",
+    "fecha_vencimiento": {
+      "$date": "2028-08-16T01:09:50.725Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd716"
+    },
+    "laboratorio_ref": {
+      "$oid": "6901afae1a3e87e1645cd71c"
+    },
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd724"
+    },
+    "tipo": {
+      "nombre": "Monturas",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 191,
+    "precio_unitario": 106739.9,
+    "fecha_ingreso": {
+      "$date": "2025-03-25T01:09:50.804Z"
+    },
+    "numero_lote": "LOTE-2025-1006",
+    "fecha_vencimiento": {
+      "$date": "2028-10-12T01:09:50.804Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd716"
+    },
+    "laboratorio_ref": {
+      "$oid": "6901afae1a3e87e1645cd71b"
+    },
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd725"
+    },
+    "tipo": {
+      "nombre": "Lentes oftálmicos",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 83,
+    "precio_unitario": 71909.69,
+    "fecha_ingreso": {
+      "$date": "2025-05-01T01:09:50.884Z"
+    },
+    "numero_lote": "LOTE-2025-1007",
+    "fecha_vencimiento": {
+      "$date": "2027-08-17T01:09:50.884Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd717"
+    },
+    "laboratorio_ref": null,
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afae1a3e87e1645cd726"
+    },
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 377,
+    "precio_unitario": 34065.16,
+    "fecha_ingreso": {
+      "$date": "2025-05-02T01:09:50.970Z"
+    },
+    "numero_lote": "LOTE-2025-1008",
+    "fecha_vencimiento": {
+      "$date": "2027-02-18T01:09:50.970Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd716"
+    },
+    "laboratorio_ref": null,
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afaf1a3e87e1645cd727"
+    },
+    "tipo": {
+      "nombre": "Lentes de contacto",
+      "descripcion": "Suministro para óptica"
+    },
+    "cantidad": 425,
+    "precio_unitario": 55411.22,
+    "fecha_ingreso": {
+      "$date": "2025-09-07T01:09:51.053Z"
+    },
+    "numero_lote": "LOTE-2025-1009",
+    "fecha_vencimiento": {
+      "$date": "2027-04-28T01:09:51.053Z"
+    },
+    "proveedor_ref": {
+      "$oid": "6901afad1a3e87e1645cd719"
+    },
+    "laboratorio_ref": {
+      "$oid": "6901afae1a3e87e1645cd71d"
+    },
+    "observaciones": ""
+  }
+]

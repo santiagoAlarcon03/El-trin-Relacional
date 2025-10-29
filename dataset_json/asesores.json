@@ -1,0 +1,202 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd708"
+    },
+    "nombre": "Pablo",
+    "apellido": "Jiménez",
+    "numero_documento": "1257091368",
+    "fecha_contratacion": {
+      "$date": "2020-04-21T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=1",
+    "telefonos": [
+      {
+        "numero": "3106707658",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "pablo.jiménez@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "nombre": "Mariana",
+    "apellido": "Medina",
+    "numero_documento": "1363297239",
+    "fecha_contratacion": {
+      "$date": "2020-08-21T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=9",
+    "telefonos": [
+      {
+        "numero": "3130347319",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "mariana.medina@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "nombre": "Camilo",
+    "apellido": "Martínez",
+    "numero_documento": "1694958624",
+    "fecha_contratacion": {
+      "$date": "2020-11-05T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=7",
+    "telefonos": [
+      {
+        "numero": "3154183897",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "camilo.martínez@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd70b"
+    },
+    "nombre": "Paula",
+    "apellido": "Romero",
+    "numero_documento": "1485061379",
+    "fecha_contratacion": {
+      "$date": "2025-01-02T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=61",
+    "telefonos": [
+      {
+        "numero": "3141252586",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "paula.romero@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd70c"
+    },
+    "nombre": "Daniel",
+    "apellido": "Castro",
+    "numero_documento": "1285829828",
+    "fecha_contratacion": {
+      "$date": "2025-12-28T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=9",
+    "telefonos": [
+      {
+        "numero": "3156644427",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "daniel.castro@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd70d"
+    },
+    "nombre": "Ana",
+    "apellido": "Díaz",
+    "numero_documento": "1467967401",
+    "fecha_contratacion": {
+      "$date": "2024-09-03T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=45",
+    "telefonos": [
+      {
+        "numero": "3146384636",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ana.díaz@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "nombre": "Juan",
+    "apellido": "Ramos",
+    "numero_documento": "1762860583",
+    "fecha_contratacion": {
+      "$date": "2022-08-10T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=44",
+    "telefonos": [
+      {
+        "numero": "3186747697",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "juan.ramos@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd70f"
+    },
+    "nombre": "Santiago",
+    "apellido": "Ramos",
+    "numero_documento": "1376182547",
+    "fecha_contratacion": {
+      "$date": "2024-06-07T00:00:00Z"
+    },
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=10",
+    "telefonos": [
+      {
+        "numero": "3136281310",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "santiago.ramos@optica.com",
+        "tipo": "Corporativo"
+      }
+    ]
+  }
+]

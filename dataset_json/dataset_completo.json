@@ -1,0 +1,4560 @@
+{
+  "catalogos": [
+    {
+      "_id": "catalogos_optica",
+      "especialidades": [
+        {
+          "nombre": "Optometrﾃｭa",
+          "descripcion": "Especialidad en salud visual y prescripciﾃｳn de lentes"
+        },
+        {
+          "nombre": "Oftalmologﾃｭa",
+          "descripcion": "Especialidad mﾃｩdica para enfermedades oculares"
+        },
+        {
+          "nombre": "Contactologﾃｭa",
+          "descripcion": "Especialidad en lentes de contacto"
+        }
+      ],
+      "motivos": [
+        {
+          "descripcion": "Ajuste de monturas"
+        },
+        {
+          "descripcion": "Consulta por molestias visuales"
+        },
+        {
+          "descripcion": "Control post-compra"
+        },
+        {
+          "descripcion": "Examen visual de rutina"
+        },
+        {
+          "descripcion": "Revisiﾃｳn de lentes"
+        }
+      ],
+      "tipos_diagnostico": [
+        {
+          "nombre": "Miopﾃｭa",
+          "descripcion": "Dificultad para ver objetos lejanos"
+        },
+        {
+          "nombre": "Hipermetropﾃｭa",
+          "descripcion": "Dificultad para ver objetos cercanos"
+        },
+        {
+          "nombre": "Astigmatismo",
+          "descripcion": "Visiﾃｳn distorsionada o borrosa"
+        },
+        {
+          "nombre": "Presbicia",
+          "descripcion": "Dificultad para enfocar objetos cercanos por edad"
+        }
+      ],
+      "metodos_pago": [
+        {
+          "nombre": "Efectivo",
+          "activo": true
+        },
+        {
+          "nombre": "Tarjeta de Crﾃｩdito",
+          "activo": true
+        },
+        {
+          "nombre": "Tarjeta de Dﾃｩbito",
+          "activo": true
+        },
+        {
+          "nombre": "Transferencia Bancaria",
+          "activo": true
+        },
+        {
+          "nombre": "PSE",
+          "activo": true
+        }
+      ],
+      "tipos_suministro": [
+        {
+          "nombre": "Lentes oftﾃ｡lmicos",
+          "descripcion": "Cristales para gafas formuladas"
+        },
+        {
+          "nombre": "Lentes de contacto",
+          "descripcion": "Lentes de contacto blandos y rﾃｭgidos"
+        },
+        {
+          "nombre": "Monturas",
+          "descripcion": "Armazones para lentes"
+        },
+        {
+          "nombre": "Accesorios",
+          "descripcion": "Estuches, paﾃｱos, lﾃｭquidos de limpieza"
+        }
+      ],
+      "tipos_producto": [
+        {
+          "nombre": "Gafas formuladas",
+          "categoria": "Lente"
+        },
+        {
+          "nombre": "Gafas de sol",
+          "categoria": "Accesorio"
+        },
+        {
+          "nombre": "Lentes de contacto",
+          "categoria": "Contacto"
+        },
+        {
+          "nombre": "Monturas oftﾃ｡lmicas",
+          "categoria": "Montura"
+        },
+        {
+          "nombre": "Estuches",
+          "categoria": "Accesorio"
+        },
+        {
+          "nombre": "Lﾃｭquidos de limpieza",
+          "categoria": "Accesorio"
+        }
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "_id": {
+        "$oid": "6901afa91a3e87e1645cd6ea"
+      },
+      "nombre": "Carolina",
+      "apellido": "Castro",
+      "email": "carolina.castro0@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1978-01-17T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-02-19T01:09:45.953Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=70",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1933638521"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 100 #51-92",
+          "ciudad": "Cartagena",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110563",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3138278282",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6eb"
+      },
+      "nombre": "Camilo",
+      "apellido": "González",
+      "email": "camilo.gonzález1@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1989-02-25T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2025-06-17T01:09:46.048Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=66",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1855830447"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 123 #88-91",
+          "ciudad": "Medellín",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110913",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3167430668",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6ec"
+      },
+      "nombre": "Camila",
+      "apellido": "Morales",
+      "email": "camila.morales2@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1985-05-14T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2024-01-20T01:09:46.130Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=17",
+      "documento": {
+        "tipo": "CC",
+        "numero": "1633429115"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 177 #92-38",
+          "ciudad": "Cúcuta",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110361",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3116851544",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6ed"
+      },
+      "nombre": "Mariana",
+      "apellido": "Pérez",
+      "email": "mariana.pérez3@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-298944000000"
+        }
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2024-07-26T01:09:46.220Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=61",
+      "documento": {
+        "tipo": "CC",
+        "numero": "1988225463"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 106 #79-87",
+          "ciudad": "Cúcuta",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110039",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3127683146",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "nombre": "Daniel",
+      "apellido": "Medina",
+      "email": "daniel.medina4@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1990-02-15T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2024-10-11T01:09:46.299Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=3",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1263783863"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 72 #44-7",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110006",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3127386076",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6ef"
+      },
+      "nombre": "Claudia",
+      "apellido": "Guerrero",
+      "email": "claudia.guerrero5@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1990-04-25T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-07-15T01:09:46.379Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=20",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1372543233"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 6 #87-20",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110814",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3171303950",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f0"
+      },
+      "nombre": "Laura",
+      "apellido": "Flores",
+      "email": "laura.flores6@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1996-04-17T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-12-15T01:09:46.458Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=64",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1415545833"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 199 #46-91",
+          "ciudad": "Armenia",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110373",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3132701166",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f1"
+      },
+      "nombre": "Mateo",
+      "apellido": "Mendoza",
+      "email": "mateo.mendoza7@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2005-05-02T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-12-25T01:09:46.537Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=31",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1320542201"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 46 #99-73",
+          "ciudad": "Medellín",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110212",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3104523612",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f2"
+      },
+      "nombre": "Sofía",
+      "apellido": "Martínez",
+      "email": "sofía.martínez8@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1998-01-16T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2025-02-23T01:09:46.636Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=58",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1624987271"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 73 #11-93",
+          "ciudad": "Barranquilla",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110780",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3193967561",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f3"
+      },
+      "nombre": "Claudia",
+      "apellido": "Mendoza",
+      "email": "claudia.mendoza9@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1982-08-12T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2023-08-26T01:09:46.716Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=52",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1255974598"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 192 #59-6",
+          "ciudad": "Pereira",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110227",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3198354302",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f4"
+      },
+      "nombre": "David",
+      "apellido": "Rojas",
+      "email": "david.rojas10@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1970-04-09T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-05-04T01:09:46.801Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=56",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1562327560"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 178 #58-65",
+          "ciudad": "Cali",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110732",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3135251814",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f5"
+      },
+      "nombre": "Alejandra",
+      "apellido": "Martínez",
+      "email": "alejandra.martínez11@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2004-07-13T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-09-14T01:09:46.880Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=33",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1661583974"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 51 #56-58",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110702",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3188281371",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaa1a3e87e1645cd6f6"
+      },
+      "nombre": "Andrés",
+      "apellido": "Silva",
+      "email": "andrés.silva12@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1986-11-23T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-02-22T01:09:46.972Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=9",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1994817685"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 14 #39-26",
+          "ciudad": "Cartagena",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110592",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3110839897",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6f7"
+      },
+      "nombre": "Fernando",
+      "apellido": "López",
+      "email": "fernando.lópez13@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2002-09-03T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-10-19T01:09:47.067Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=39",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1826656778"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 192 #78-72",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110068",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3170002587",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6f8"
+      },
+      "nombre": "Alejandro",
+      "apellido": "Ramos",
+      "email": "alejandro.ramos14@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2001-05-08T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-07-13T01:09:47.147Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=21",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1600251189"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 160 #34-63",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110282",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3180282929",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6f9"
+      },
+      "nombre": "Diana",
+      "apellido": "García",
+      "email": "diana.garcía15@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1979-06-05T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2025-03-18T01:09:47.228Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=10",
+      "documento": {
+        "tipo": "CC",
+        "numero": "1707995530"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 21 #38-33",
+          "ciudad": "Manizales",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110702",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3123056763",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6fa"
+      },
+      "nombre": "Claudia",
+      "apellido": "Castro",
+      "email": "claudia.castro16@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1980-04-28T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-10-21T01:09:47.309Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=14",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1714692158"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 71 #51-64",
+          "ciudad": "Armenia",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110705",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3189912902",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6fb"
+      },
+      "nombre": "María",
+      "apellido": "González",
+      "email": "maría.gonzález17@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1989-08-27T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-05-11T01:09:47.389Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=60",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1346491135"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 29 #72-46",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110017",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3189224163",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6fc"
+      },
+      "nombre": "Valentina",
+      "apellido": "Silva",
+      "email": "valentina.silva18@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-183600000000"
+        }
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2025-06-24T01:09:47.470Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=57",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1234394683"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 159 #86-67",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110195",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3168208153",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6fd"
+      },
+      "nombre": "Carolina",
+      "apellido": "Sánchez",
+      "email": "carolina.sánchez19@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1985-01-12T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2025-05-23T01:09:47.580Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=64",
+      "documento": {
+        "tipo": "CC",
+        "numero": "1696728048"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 65 #67-20",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110869",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3153929611",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6fe"
+      },
+      "nombre": "Claudia",
+      "apellido": "Romero",
+      "email": "claudia.romero20@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2004-03-25T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2025-03-24T01:09:47.660Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=33",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1065293031"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 81 #76-60",
+          "ciudad": "Cali",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110518",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3121297015",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd6ff"
+      },
+      "nombre": "Daniel",
+      "apellido": "Medina",
+      "email": "daniel.medina21@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-37584000000"
+        }
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-04-11T01:09:47.747Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=9",
+      "documento": {
+        "tipo": "CC",
+        "numero": "1584171898"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 119 #54-99",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110094",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3114964615",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd700"
+      },
+      "nombre": "Fernando",
+      "apellido": "Ramírez",
+      "email": "fernando.ramírez22@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-212544000000"
+        }
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-04-20T01:09:47.829Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=65",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1940118697"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 191 #85-50",
+          "ciudad": "Manizales",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110944",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3142932755",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd701"
+      },
+      "nombre": "Patricia",
+      "apellido": "Morales",
+      "email": "patricia.morales23@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-150768000000"
+        }
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-03-06T01:09:47.908Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=9",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1491544493"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 8 #37-10",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110478",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3146054330",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afab1a3e87e1645cd702"
+      },
+      "nombre": "Camilo",
+      "apellido": "García",
+      "email": "camilo.garcía24@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1982-06-19T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2024-01-31T01:09:47.989Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=21",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1216345241"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 53 #72-87",
+          "ciudad": "Barranquilla",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110326",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3186628884",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd703"
+      },
+      "nombre": "Carlos",
+      "apellido": "Medina",
+      "email": "carlos.medina25@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1987-11-24T00:00:00Z"
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2023-04-29T01:09:48.071Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=62",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1613218666"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 141 #58-96",
+          "ciudad": "Barranquilla",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110844",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3132195580",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd704"
+      },
+      "nombre": "Daniel",
+      "apellido": "Díaz",
+      "email": "daniel.díaz26@mail.com",
+      "fecha_nacimiento": {
+        "$date": "2001-04-04T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2023-04-03T01:09:48.157Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=28",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1551183633"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 9 #23-51",
+          "ciudad": "Cartagena",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110132",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3153219963",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd705"
+      },
+      "nombre": "Felipe",
+      "apellido": "Vargas",
+      "email": "felipe.vargas27@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-11923200000"
+        }
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2023-06-06T01:09:48.239Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=39",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1611138871"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 129 #51-81",
+          "ciudad": "Cúcuta",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110592",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3196283136",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd706"
+      },
+      "nombre": "Claudia",
+      "apellido": "López",
+      "email": "claudia.lópez28@mail.com",
+      "fecha_nacimiento": {
+        "$date": {
+          "$numberLong": "-162086400000"
+        }
+      },
+      "activo": true,
+      "fecha_registro": {
+        "$date": "2024-11-04T01:09:48.319Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=59",
+      "documento": {
+        "tipo": "TI",
+        "numero": "1832899743"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 174 #90-11",
+          "ciudad": "Pereira",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110477",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3147038111",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd707"
+      },
+      "nombre": "Gabriela",
+      "apellido": "Martínez",
+      "email": "gabriela.martínez29@mail.com",
+      "fecha_nacimiento": {
+        "$date": "1978-09-19T00:00:00Z"
+      },
+      "activo": false,
+      "fecha_registro": {
+        "$date": "2025-05-23T01:09:48.397Z"
+      },
+      "foto_perfil": "https://i.pravatar.cc/300?img=68",
+      "documento": {
+        "tipo": "CE",
+        "numero": "1538899641"
+      },
+      "direcciones": [
+        {
+          "tipo": "Principal",
+          "calle": "Calle 145 #35-61",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110347",
+          "pais": "Colombia",
+          "es_principal": true
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3124991981",
+          "tipo": "Móvil",
+          "es_principal": true
+        }
+      ]
+    }
+  ],
+  "asesores": [
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd708"
+      },
+      "nombre": "Pablo",
+      "apellido": "Jiménez",
+      "numero_documento": "1257091368",
+      "fecha_contratacion": {
+        "$date": "2020-04-21T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=1",
+      "telefonos": [
+        {
+          "numero": "3106707658",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "pablo.jiménez@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "nombre": "Mariana",
+      "apellido": "Medina",
+      "numero_documento": "1363297239",
+      "fecha_contratacion": {
+        "$date": "2020-08-21T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=9",
+      "telefonos": [
+        {
+          "numero": "3130347319",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "mariana.medina@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "nombre": "Camilo",
+      "apellido": "Martínez",
+      "numero_documento": "1694958624",
+      "fecha_contratacion": {
+        "$date": "2020-11-05T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=7",
+      "telefonos": [
+        {
+          "numero": "3154183897",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "camilo.martínez@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd70b"
+      },
+      "nombre": "Paula",
+      "apellido": "Romero",
+      "numero_documento": "1485061379",
+      "fecha_contratacion": {
+        "$date": "2025-01-02T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=61",
+      "telefonos": [
+        {
+          "numero": "3141252586",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "paula.romero@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd70c"
+      },
+      "nombre": "Daniel",
+      "apellido": "Castro",
+      "numero_documento": "1285829828",
+      "fecha_contratacion": {
+        "$date": "2025-12-28T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=9",
+      "telefonos": [
+        {
+          "numero": "3156644427",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "daniel.castro@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd70d"
+      },
+      "nombre": "Ana",
+      "apellido": "Díaz",
+      "numero_documento": "1467967401",
+      "fecha_contratacion": {
+        "$date": "2024-09-03T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=45",
+      "telefonos": [
+        {
+          "numero": "3146384636",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ana.díaz@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "nombre": "Juan",
+      "apellido": "Ramos",
+      "numero_documento": "1762860583",
+      "fecha_contratacion": {
+        "$date": "2022-08-10T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=44",
+      "telefonos": [
+        {
+          "numero": "3186747697",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "juan.ramos@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd70f"
+      },
+      "nombre": "Santiago",
+      "apellido": "Ramos",
+      "numero_documento": "1376182547",
+      "fecha_contratacion": {
+        "$date": "2024-06-07T00:00:00Z"
+      },
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=10",
+      "telefonos": [
+        {
+          "numero": "3136281310",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "santiago.ramos@optica.com",
+          "tipo": "Corporativo"
+        }
+      ]
+    }
+  ],
+  "especialistas": [
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd710"
+      },
+      "nombre": "Claudia",
+      "apellido": "González",
+      "numero_licencia": "OPT-17748",
+      "numero_documento": "1388522489",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=33",
+      "especialidades": [
+        {
+          "nombre": "Optometría",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2016-11-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3118226681",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.claudia.gonzález@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd711"
+      },
+      "nombre": "Felipe",
+      "apellido": "Martínez",
+      "numero_licencia": "OPT-41571",
+      "numero_documento": "1700826837",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=27",
+      "especialidades": [
+        {
+          "nombre": "Oftalmología",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2011-04-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3118966324",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.felipe.martínez@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd712"
+      },
+      "nombre": "Diana",
+      "apellido": "Pérez",
+      "numero_licencia": "OPT-30429",
+      "numero_documento": "1563333559",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=27",
+      "especialidades": [
+        {
+          "nombre": "Contactología",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2018-02-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3174488857",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.diana.pérez@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "nombre": "Sofía",
+      "apellido": "Martínez",
+      "numero_licencia": "OFT-25471",
+      "numero_documento": "1462407815",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=55",
+      "especialidades": [
+        {
+          "nombre": "Contactología",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2017-07-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3160057367",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.sofía.martínez@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd714"
+      },
+      "nombre": "Juliana",
+      "apellido": "Sánchez",
+      "numero_licencia": "OFT-76502",
+      "numero_documento": "1985931413",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=40",
+      "especialidades": [
+        {
+          "nombre": "Optometría",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2023-01-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3128393014",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.juliana.sánchez@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "nombre": "Natalia",
+      "apellido": "González",
+      "numero_licencia": "OFT-66620",
+      "numero_documento": "1174703112",
+      "activo": true,
+      "foto_perfil": "https://i.pravatar.cc/300?img=24",
+      "especialidades": [
+        {
+          "nombre": "Oftalmología",
+          "descripcion": "Especialidad en salud visual",
+          "fecha_certificacion": {
+            "$date": "2012-03-01T00:00:00Z"
+          }
+        }
+      ],
+      "telefonos": [
+        {
+          "numero": "3107334628",
+          "tipo": "Móvil"
+        }
+      ],
+      "emails": [
+        {
+          "email": "dr.natalia.gonzález@optica.com",
+          "tipo": "Profesional"
+        }
+      ]
+    }
+  ],
+  "proveedores": [
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd716"
+      },
+      "nombre_proveedor": "LentesPro Internacional",
+      "contacto_principal": "Camilo Romero",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/0066cc/ffffff?text=LentesPro",
+      "direcciones": [
+        {
+          "calle": "Carrera 28 #84-31",
+          "ciudad": "Cali",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110996",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "615258355",
+          "extension": "118"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ventas@lentesprointernacional.com",
+          "tipo": "Ventas"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd717"
+      },
+      "nombre_proveedor": "Monturas Premium",
+      "contacto_principal": "Mateo Ruiz",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/cc0000/ffffff?text=MonturasPremium",
+      "direcciones": [
+        {
+          "calle": "Carrera 14 #35-42",
+          "ciudad": "Barranquilla",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110022",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "613264108",
+          "extension": "745"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ventas@monturaspremium.com",
+          "tipo": "Ventas"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd718"
+      },
+      "nombre_proveedor": "VisualTech SA",
+      "contacto_principal": "Manuel Díaz",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/00cc66/ffffff?text=VisualTech",
+      "direcciones": [
+        {
+          "calle": "Carrera 98 #17-30",
+          "ciudad": "Armenia",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110589",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "616710195",
+          "extension": "748"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ventas@visualtechsa.com",
+          "tipo": "Ventas"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd719"
+      },
+      "nombre_proveedor": "Óptica Mayorista",
+      "contacto_principal": "Santiago Hernández",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/ff9900/ffffff?text=OpticaMayorista",
+      "direcciones": [
+        {
+          "calle": "Carrera 64 #33-69",
+          "ciudad": "Armenia",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110935",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "615483808",
+          "extension": "583"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ventas@ópticamayorista.com",
+          "tipo": "Ventas"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afad1a3e87e1645cd71a"
+      },
+      "nombre_proveedor": "GlobalVision",
+      "contacto_principal": "Alejandro Álvarez",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/9900cc/ffffff?text=GlobalVision",
+      "direcciones": [
+        {
+          "calle": "Carrera 91 #34-57",
+          "ciudad": "Cali",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110194",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "610110523",
+          "extension": "844"
+        }
+      ],
+      "emails": [
+        {
+          "email": "ventas@globalvision.com",
+          "tipo": "Ventas"
+        }
+      ]
+    }
+  ],
+  "laboratorios": [
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd71b"
+      },
+      "nombre_laboratorio": "LabVisión Colombia",
+      "contacto_principal": "Alejandro Gómez",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=LabVisiónColombia",
+      "direcciones": [
+        {
+          "calle": "Avenida 16 #72-99",
+          "ciudad": "Bogotá",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110054",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "617970575",
+          "extension": "711"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd71c"
+      },
+      "nombre_laboratorio": "CristalLab",
+      "contacto_principal": "Alejandro López",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=CristalLab",
+      "direcciones": [
+        {
+          "calle": "Avenida 9 #88-49",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110387",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "611505705",
+          "extension": "247"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd71d"
+      },
+      "nombre_laboratorio": "LenteFino Labs",
+      "contacto_principal": "Camilo Silva",
+      "activo": true,
+      "logo": "https://via.placeholder.com/200x80/003366/ffffff?text=LenteFinoLabs",
+      "direcciones": [
+        {
+          "calle": "Avenida 49 #23-81",
+          "ciudad": "Bucaramanga",
+          "estado": "Cundinamarca",
+          "codigo_postal": "110928",
+          "pais": "Colombia"
+        }
+      ],
+      "telefonos": [
+        {
+          "telefono": "614817267",
+          "extension": "723"
+        }
+      ]
+    }
+  ],
+  "suministros": [
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd71e"
+      },
+      "tipo": {
+        "nombre": "Lentes oftálmicos",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 292,
+      "precio_unitario": 27877.99,
+      "fecha_ingreso": {
+        "$date": "2025-02-26T01:09:50.307Z"
+      },
+      "numero_lote": "LOTE-2025-1000",
+      "fecha_vencimiento": {
+        "$date": "2028-02-09T01:09:50.307Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd719"
+      },
+      "laboratorio_ref": {
+        "$oid": "6901afae1a3e87e1645cd71b"
+      },
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd71f"
+      },
+      "tipo": {
+        "nombre": "Accesorios",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 107,
+      "precio_unitario": 110125.83,
+      "fecha_ingreso": {
+        "$date": "2024-11-30T01:09:50.385Z"
+      },
+      "numero_lote": "LOTE-2025-1001",
+      "fecha_vencimiento": {
+        "$date": "2028-07-28T01:09:50.385Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd718"
+      },
+      "laboratorio_ref": null,
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd720"
+      },
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 275,
+      "precio_unitario": 100782.22,
+      "fecha_ingreso": {
+        "$date": "2025-07-10T01:09:50.463Z"
+      },
+      "numero_lote": "LOTE-2025-1002",
+      "fecha_vencimiento": {
+        "$date": "2028-06-19T01:09:50.463Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd71a"
+      },
+      "laboratorio_ref": {
+        "$oid": "6901afae1a3e87e1645cd71d"
+      },
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd721"
+      },
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 462,
+      "precio_unitario": 93772.93,
+      "fecha_ingreso": {
+        "$date": "2024-11-26T01:09:50.557Z"
+      },
+      "numero_lote": "LOTE-2025-1003",
+      "fecha_vencimiento": {
+        "$date": "2028-04-14T01:09:50.557Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd718"
+      },
+      "laboratorio_ref": null,
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd722"
+      },
+      "tipo": {
+        "nombre": "Monturas",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 309,
+      "precio_unitario": 122687.67,
+      "fecha_ingreso": {
+        "$date": "2024-11-23T01:09:50.643Z"
+      },
+      "numero_lote": "LOTE-2025-1004",
+      "fecha_vencimiento": {
+        "$date": "2027-01-17T01:09:50.643Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd71a"
+      },
+      "laboratorio_ref": null,
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd723"
+      },
+      "tipo": {
+        "nombre": "Accesorios",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 235,
+      "precio_unitario": 90494.21,
+      "fecha_ingreso": {
+        "$date": "2025-06-24T01:09:50.725Z"
+      },
+      "numero_lote": "LOTE-2025-1005",
+      "fecha_vencimiento": {
+        "$date": "2028-08-16T01:09:50.725Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd716"
+      },
+      "laboratorio_ref": {
+        "$oid": "6901afae1a3e87e1645cd71c"
+      },
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd724"
+      },
+      "tipo": {
+        "nombre": "Monturas",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 191,
+      "precio_unitario": 106739.9,
+      "fecha_ingreso": {
+        "$date": "2025-03-25T01:09:50.804Z"
+      },
+      "numero_lote": "LOTE-2025-1006",
+      "fecha_vencimiento": {
+        "$date": "2028-10-12T01:09:50.804Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd716"
+      },
+      "laboratorio_ref": {
+        "$oid": "6901afae1a3e87e1645cd71b"
+      },
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd725"
+      },
+      "tipo": {
+        "nombre": "Lentes oftálmicos",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 83,
+      "precio_unitario": 71909.69,
+      "fecha_ingreso": {
+        "$date": "2025-05-01T01:09:50.884Z"
+      },
+      "numero_lote": "LOTE-2025-1007",
+      "fecha_vencimiento": {
+        "$date": "2027-08-17T01:09:50.884Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd717"
+      },
+      "laboratorio_ref": null,
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afae1a3e87e1645cd726"
+      },
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 377,
+      "precio_unitario": 34065.16,
+      "fecha_ingreso": {
+        "$date": "2025-05-02T01:09:50.970Z"
+      },
+      "numero_lote": "LOTE-2025-1008",
+      "fecha_vencimiento": {
+        "$date": "2027-02-18T01:09:50.970Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd716"
+      },
+      "laboratorio_ref": null,
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd727"
+      },
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "descripcion": "Suministro para óptica"
+      },
+      "cantidad": 425,
+      "precio_unitario": 55411.22,
+      "fecha_ingreso": {
+        "$date": "2025-09-07T01:09:51.053Z"
+      },
+      "numero_lote": "LOTE-2025-1009",
+      "fecha_vencimiento": {
+        "$date": "2027-04-28T01:09:51.053Z"
+      },
+      "proveedor_ref": {
+        "$oid": "6901afad1a3e87e1645cd719"
+      },
+      "laboratorio_ref": {
+        "$oid": "6901afae1a3e87e1645cd71d"
+      },
+      "observaciones": ""
+    }
+  ],
+  "productos": [
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd728"
+      },
+      "nombre_producto": "Arnette Monturas oftálmicas Modelo-1",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Arnette",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Arnette",
+      "precio_venta": 231560.35,
+      "stock": 15,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456000",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd723"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2024-12-22T01:09:51.133Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd729"
+      },
+      "nombre_producto": "Prada Gafas formuladas Modelo-2",
+      "tipo": {
+        "nombre": "Gafas formuladas",
+        "categoria": "Lente"
+      },
+      "marca": "Prada",
+      "descripcion": "Gafas formuladas de alta calidad marca Prada",
+      "precio_venta": 569863.93,
+      "stock": 13,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456001",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd724"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2024-12-10T01:09:51.212Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1574258495973-f010dfbb5371",
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72a"
+      },
+      "nombre_producto": "Persol Lentes de contacto Modelo-3",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Persol",
+      "descripcion": "Lentes de contacto de alta calidad marca Persol",
+      "precio_venta": 206024.53,
+      "stock": 78,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456002",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd721"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-01-23T01:09:51.302Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72b"
+      },
+      "nombre_producto": "Prada Lentes de contacto Modelo-4",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Prada",
+      "descripcion": "Lentes de contacto de alta calidad marca Prada",
+      "precio_venta": 407608.67,
+      "stock": 93,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456003",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd723"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-09-16T01:09:51.384Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72c"
+      },
+      "nombre_producto": "Oakley Monturas oftálmicas Modelo-5",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Oakley",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Oakley",
+      "precio_venta": 645559.99,
+      "stock": 60,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456004",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd71e"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-03-24T01:09:51.463Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72d"
+      },
+      "nombre_producto": "Vogue Monturas oftálmicas Modelo-6",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Vogue",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Vogue",
+      "precio_venta": 439625.19,
+      "stock": 6,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456005",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd723"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2024-11-30T01:09:51.548Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72e"
+      },
+      "nombre_producto": "Prada Monturas oftálmicas Modelo-7",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Prada",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Prada",
+      "precio_venta": 125145.02,
+      "stock": 31,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456006",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd721"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2024-12-08T01:09:51.631Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd72f"
+      },
+      "nombre_producto": "Ray-Ban Lentes de contacto Modelo-8",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Ray-Ban",
+      "descripcion": "Lentes de contacto de alta calidad marca Ray-Ban",
+      "precio_venta": 634655.52,
+      "stock": 16,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456007",
+      "suministro_ref": {
+        "$oid": "6901afaf1a3e87e1645cd727"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-09-29T01:09:51.710Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd730"
+      },
+      "nombre_producto": "Police Monturas oftálmicas Modelo-9",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Police",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Police",
+      "precio_venta": 230649.31,
+      "stock": 69,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456008",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd723"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-06-27T01:09:51.796Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+        "https://images.unsplash.com/photo-1577803645773-f96470509666"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd731"
+      },
+      "nombre_producto": "Prada Lentes de contacto Modelo-10",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Prada",
+      "descripcion": "Lentes de contacto de alta calidad marca Prada",
+      "precio_venta": 687885.51,
+      "stock": 81,
+      "stock_minimo": 5,
+      "codigo_barras": "7890123456009",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd721"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-03-24T01:09:51.908Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144",
+        "https://images.unsplash.com/photo-1577803645773-f96470509666"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afaf1a3e87e1645cd732"
+      },
+      "nombre_producto": "Carrera Lentes de contacto Modelo-11",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Carrera",
+      "descripcion": "Lentes de contacto de alta calidad marca Carrera",
+      "precio_venta": 556629.2,
+      "stock": 58,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560010",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd720"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-05-28T01:09:51.988Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+        "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd733"
+      },
+      "nombre_producto": "Vogue Gafas formuladas Modelo-12",
+      "tipo": {
+        "nombre": "Gafas formuladas",
+        "categoria": "Lente"
+      },
+      "marca": "Vogue",
+      "descripcion": "Gafas formuladas de alta calidad marca Vogue",
+      "precio_venta": 425594.99,
+      "stock": 69,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560011",
+      "suministro_ref": {
+        "$oid": "6901afaf1a3e87e1645cd727"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-06-17T01:09:52.078Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3",
+        "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd734"
+      },
+      "nombre_producto": "Persol Monturas oftálmicas Modelo-13",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Persol",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Persol",
+      "precio_venta": 590900.57,
+      "stock": 53,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560012",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd724"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-09-21T01:09:52.157Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd735"
+      },
+      "nombre_producto": "Carrera Lentes de contacto Modelo-14",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Carrera",
+      "descripcion": "Lentes de contacto de alta calidad marca Carrera",
+      "precio_venta": 787041.41,
+      "stock": 32,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560013",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd722"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-09-10T01:09:52.235Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd736"
+      },
+      "nombre_producto": "Oakley Gafas formuladas Modelo-15",
+      "tipo": {
+        "nombre": "Gafas formuladas",
+        "categoria": "Lente"
+      },
+      "marca": "Oakley",
+      "descripcion": "Gafas formuladas de alta calidad marca Oakley",
+      "precio_venta": 193576.64,
+      "stock": 28,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560014",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd726"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-02-21T01:09:52.314Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+        "https://images.unsplash.com/photo-1509695507497-903c140c43b0"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd737"
+      },
+      "nombre_producto": "Gucci Gafas de sol Modelo-16",
+      "tipo": {
+        "nombre": "Gafas de sol",
+        "categoria": "Lente"
+      },
+      "marca": "Gucci",
+      "descripcion": "Gafas de sol de alta calidad marca Gucci",
+      "precio_venta": 284765.08,
+      "stock": 71,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560015",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd71f"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-08-20T01:09:52.394Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd738"
+      },
+      "nombre_producto": "Ray-Ban Lentes de contacto Modelo-17",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Ray-Ban",
+      "descripcion": "Lentes de contacto de alta calidad marca Ray-Ban",
+      "precio_venta": 660097.59,
+      "stock": 65,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560016",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd725"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-02-25T01:09:52.473Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd739"
+      },
+      "nombre_producto": "Persol Gafas formuladas Modelo-18",
+      "tipo": {
+        "nombre": "Gafas formuladas",
+        "categoria": "Lente"
+      },
+      "marca": "Persol",
+      "descripcion": "Gafas formuladas de alta calidad marca Persol",
+      "precio_venta": 401374.04,
+      "stock": 55,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560017",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd721"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-04-10T01:09:52.553Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229",
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd73a"
+      },
+      "nombre_producto": "Oakley Monturas oftálmicas Modelo-19",
+      "tipo": {
+        "nombre": "Monturas oftálmicas",
+        "categoria": "Montura"
+      },
+      "marca": "Oakley",
+      "descripcion": "Monturas oftálmicas de alta calidad marca Oakley",
+      "precio_venta": 209175.89,
+      "stock": 10,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560018",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd722"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-08-13T01:09:52.641Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1508296695146-257a814070b4",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd73b"
+      },
+      "nombre_producto": "Prada Lentes de contacto Modelo-20",
+      "tipo": {
+        "nombre": "Lentes de contacto",
+        "categoria": "Lente"
+      },
+      "marca": "Prada",
+      "descripcion": "Lentes de contacto de alta calidad marca Prada",
+      "precio_venta": 261026.93,
+      "stock": 22,
+      "stock_minimo": 5,
+      "codigo_barras": "78901234560019",
+      "suministro_ref": {
+        "$oid": "6901afae1a3e87e1645cd720"
+      },
+      "activo": true,
+      "fecha_creacion": {
+        "$date": "2025-04-12T01:09:52.732Z"
+      },
+      "imagenes": [
+        "https://images.unsplash.com/photo-1622519407650-3df9883f76a5",
+        "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
+      ]
+    }
+  ],
+  "citas": [
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd73c"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-05T01:09:52.813Z"
+      },
+      "hora_cita": "14:30:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd707"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70d"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Programada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-23T01:09:52.813Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd73d"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-12T01:09:52.893Z"
+      },
+      "hora_cita": "13:30:00",
+      "motivo": {
+        "descripcion": "Examen visual de rutina"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fb"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70d"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd710"
+      },
+      "estado": "Programada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-09-29T01:09:52.894Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb01a3e87e1645cd73e"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-26T01:09:52.972Z"
+      },
+      "hora_cita": "8:00:00",
+      "motivo": {
+        "descripcion": "Consulta por molestias visuales"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f3"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Cancelada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-07T01:09:52.972Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd73f"
+      },
+      "fecha_cita": {
+        "$date": "2025-10-24T01:09:53.051Z"
+      },
+      "hora_cita": "16:00:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd705"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Programada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-09-29T01:09:53.051Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd740"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-02T01:09:53.130Z"
+      },
+      "hora_cita": "9:00:00",
+      "motivo": {
+        "descripcion": "Ajuste de monturas"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fc"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd711"
+      },
+      "estado": "Cancelada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-01T01:09:53.130Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd741"
+      },
+      "fecha_cita": {
+        "$date": "2025-11-18T01:09:53.214Z"
+      },
+      "hora_cita": "14:00:00",
+      "motivo": {
+        "descripcion": "Ajuste de monturas"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd711"
+      },
+      "estado": "Cancelada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-09T01:09:53.214Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd742"
+      },
+      "fecha_cita": {
+        "$date": "2025-10-16T01:09:53.304Z"
+      },
+      "hora_cita": "16:00:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd706"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Completada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-01T01:09:53.304Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd743"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-20T01:09:53.396Z"
+      },
+      "hora_cita": "17:00:00",
+      "motivo": {
+        "descripcion": "Examen visual de rutina"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f1"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd708"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd712"
+      },
+      "estado": "Programada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-13T01:09:53.396Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd744"
+      },
+      "fecha_cita": {
+        "$date": "2025-10-23T01:09:53.474Z"
+      },
+      "hora_cita": "18:00:00",
+      "motivo": {
+        "descripcion": "Ajuste de monturas"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Completada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-20T01:09:53.474Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd745"
+      },
+      "fecha_cita": {
+        "$date": "2025-12-02T01:09:53.554Z"
+      },
+      "hora_cita": "15:00:00",
+      "motivo": {
+        "descripcion": "Consulta por molestias visuales"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd705"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70d"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd712"
+      },
+      "estado": "Programada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-26T01:09:53.554Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd746"
+      },
+      "fecha_cita": {
+        "$date": "2025-10-07T01:09:53.636Z"
+      },
+      "hora_cita": "13:00:00",
+      "motivo": {
+        "descripcion": "Examen visual de rutina"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f6"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd708"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "estado": "Confirmada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-03T01:09:53.636Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd747"
+      },
+      "fecha_cita": {
+        "$date": "2025-11-12T01:09:53.716Z"
+      },
+      "hora_cita": "15:00:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6f7"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70c"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "estado": "Cancelada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-27T01:09:53.716Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd748"
+      },
+      "fecha_cita": {
+        "$date": "2025-10-20T01:09:53.793Z"
+      },
+      "hora_cita": "16:00:00",
+      "motivo": {
+        "descripcion": "Examen visual de rutina"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "asesor_ref": {
+        "$oid": "6901afad1a3e87e1645cd70f"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd710"
+      },
+      "estado": "Completada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-09T01:09:53.793Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd749"
+      },
+      "fecha_cita": {
+        "$date": "2025-11-27T01:09:53.873Z"
+      },
+      "hora_cita": "14:00:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd706"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "estado": "Completada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-10T01:09:53.873Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb11a3e87e1645cd74a"
+      },
+      "fecha_cita": {
+        "$date": "2025-11-17T01:09:53.956Z"
+      },
+      "hora_cita": "8:30:00",
+      "motivo": {
+        "descripcion": "Revisión de lentes"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fa"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd714"
+      },
+      "estado": "Confirmada",
+      "observaciones": "",
+      "fecha_creacion": {
+        "$date": "2025-10-23T01:09:53.956Z"
+      }
+    }
+  ],
+  "examenes": [
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd74b"
+      },
+      "fecha_examen": {
+        "$date": "2025-05-21T01:09:54.080Z"
+      },
+      "agudeza_visual_od": "20/40",
+      "agudeza_visual_oi": "20/40",
+      "esfera_od": -3.14,
+      "esfera_oi": -2.94,
+      "cilindro_od": -1.56,
+      "cilindro_oi": -2.02,
+      "eje_od": 159,
+      "eje_oi": 8,
+      "distancia_pupilar": 61.4,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f4"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Miopía",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Hipermetropía leve bilateral",
+        "fecha": {
+          "$date": "2025-07-04T01:09:54.080Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: 2.36 -2.62 x 105",
+        "fecha_emision": {
+          "$date": "2025-08-24T01:09:54.080Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.080Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd74c"
+      },
+      "fecha_examen": {
+        "$date": "2025-06-20T01:09:54.160Z"
+      },
+      "agudeza_visual_od": "20/50",
+      "agudeza_visual_oi": "20/30",
+      "esfera_od": -0.12,
+      "esfera_oi": 1.2,
+      "cilindro_od": -0.29,
+      "cilindro_oi": -0.42,
+      "eje_od": 48,
+      "eje_oi": 18,
+      "distancia_pupilar": 59.5,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fa"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Presbicia",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Hipermetropía leve bilateral",
+        "fecha": {
+          "$date": "2025-10-26T01:09:54.160Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -0.3 -2.93 x 58",
+        "fecha_emision": {
+          "$date": "2025-10-23T01:09:54.160Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.160Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd74d"
+      },
+      "fecha_examen": {
+        "$date": "2025-10-01T01:09:54.242Z"
+      },
+      "agudeza_visual_od": "20/50",
+      "agudeza_visual_oi": "20/20",
+      "esfera_od": 0.87,
+      "esfera_oi": 0.49,
+      "cilindro_od": -1.47,
+      "cilindro_oi": -2.03,
+      "eje_od": 173,
+      "eje_oi": 55,
+      "distancia_pupilar": 65.8,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fc"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd711"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Presbicia",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Miopía leve bilateral",
+        "fecha": {
+          "$date": "2025-05-11T01:09:54.242Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -0.18 -1.34 x 154",
+        "fecha_emision": {
+          "$date": "2025-10-14T01:09:54.242Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.242Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd74e"
+      },
+      "fecha_examen": {
+        "$date": "2025-05-13T01:09:54.328Z"
+      },
+      "agudeza_visual_od": "20/50",
+      "agudeza_visual_oi": "20/25",
+      "esfera_od": -3.87,
+      "esfera_oi": -4.2,
+      "cilindro_od": -1.24,
+      "cilindro_oi": -0.7,
+      "eje_od": 69,
+      "eje_oi": 81,
+      "distancia_pupilar": 60.4,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd705"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd712"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Astigmatismo",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Presbicia leve bilateral",
+        "fecha": {
+          "$date": "2025-05-07T01:09:54.328Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -4.76 -1.59 x 71",
+        "fecha_emision": {
+          "$date": "2025-06-21T01:09:54.328Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.328Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd74f"
+      },
+      "fecha_examen": {
+        "$date": "2025-08-02T01:09:54.412Z"
+      },
+      "agudeza_visual_od": "20/40",
+      "agudeza_visual_oi": "20/20",
+      "esfera_od": -5.22,
+      "esfera_oi": 0.64,
+      "cilindro_od": -1.73,
+      "cilindro_oi": -0.13,
+      "eje_od": 162,
+      "eje_oi": 92,
+      "distancia_pupilar": 60.8,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fb"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd714"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Presbicia",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Astigmatismo leve bilateral",
+        "fecha": {
+          "$date": "2025-07-15T01:09:54.412Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -2.51 -0.81 x 23",
+        "fecha_emision": {
+          "$date": "2025-06-10T01:09:54.412Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.412Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd750"
+      },
+      "fecha_examen": {
+        "$date": "2025-06-30T01:09:54.492Z"
+      },
+      "agudeza_visual_od": "20/20",
+      "agudeza_visual_oi": "20/40",
+      "esfera_od": 0.21,
+      "esfera_oi": -1.17,
+      "cilindro_od": -0.74,
+      "cilindro_oi": -0.11,
+      "eje_od": 38,
+      "eje_oi": 70,
+      "distancia_pupilar": 60.7,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ec"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Astigmatismo",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Astigmatismo leve bilateral",
+        "fecha": {
+          "$date": "2025-07-11T01:09:54.492Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: 2.49 -1.11 x 7",
+        "fecha_emision": {
+          "$date": "2025-07-03T01:09:54.492Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.492Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd751"
+      },
+      "fecha_examen": {
+        "$date": "2025-09-25T01:09:54.572Z"
+      },
+      "agudeza_visual_od": "20/50",
+      "agudeza_visual_oi": "20/25",
+      "esfera_od": 2.17,
+      "esfera_oi": 1.02,
+      "cilindro_od": -0.72,
+      "cilindro_oi": -1.91,
+      "eje_od": 32,
+      "eje_oi": 48,
+      "distancia_pupilar": 61.3,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f3"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd712"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Miopía",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Astigmatismo leve bilateral",
+        "fecha": {
+          "$date": "2025-10-16T01:09:54.572Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -4.52 -1.42 x 97",
+        "fecha_emision": {
+          "$date": "2025-05-24T01:09:54.572Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.572Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd752"
+      },
+      "fecha_examen": {
+        "$date": "2025-07-12T01:09:54.663Z"
+      },
+      "agudeza_visual_od": "20/30",
+      "agudeza_visual_oi": "20/50",
+      "esfera_od": -4.24,
+      "esfera_oi": -4.62,
+      "cilindro_od": -2.48,
+      "cilindro_oi": -2.64,
+      "eje_od": 58,
+      "eje_oi": 82,
+      "distancia_pupilar": 63.2,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd701"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Miopía",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Astigmatismo leve bilateral",
+        "fecha": {
+          "$date": "2025-07-31T01:09:54.663Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -1.57 -2.91 x 105",
+        "fecha_emision": {
+          "$date": "2025-08-05T01:09:54.663Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.663Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd753"
+      },
+      "fecha_examen": {
+        "$date": "2025-07-04T01:09:54.744Z"
+      },
+      "agudeza_visual_od": "20/30",
+      "agudeza_visual_oi": "20/20",
+      "esfera_od": -3.68,
+      "esfera_oi": 1.94,
+      "cilindro_od": -2.45,
+      "cilindro_oi": -0.25,
+      "eje_od": 18,
+      "eje_oi": 136,
+      "distancia_pupilar": 65.9,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f6"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd713"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Hipermetropía",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Miopía leve bilateral",
+        "fecha": {
+          "$date": "2025-09-09T01:09:54.744Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -1.25 -2.94 x 150",
+        "fecha_emision": {
+          "$date": "2025-05-26T01:09:54.744Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.744Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd754"
+      },
+      "fecha_examen": {
+        "$date": "2025-05-16T01:09:54.834Z"
+      },
+      "agudeza_visual_od": "20/30",
+      "agudeza_visual_oi": "20/20",
+      "esfera_od": 2.64,
+      "esfera_oi": -3.16,
+      "cilindro_od": -0.63,
+      "cilindro_oi": -0.9,
+      "eje_od": 63,
+      "eje_oi": 137,
+      "distancia_pupilar": 58.8,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6ff"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd715"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Presbicia",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Presbicia leve bilateral",
+        "fecha": {
+          "$date": "2025-05-29T01:09:54.834Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -3.9 -0.91 x 87",
+        "fecha_emision": {
+          "$date": "2025-07-27T01:09:54.834Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.834Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb21a3e87e1645cd755"
+      },
+      "fecha_examen": {
+        "$date": "2025-08-06T01:09:54.930Z"
+      },
+      "agudeza_visual_od": "20/30",
+      "agudeza_visual_oi": "20/50",
+      "esfera_od": -0.76,
+      "esfera_oi": 2.45,
+      "cilindro_od": -2.28,
+      "cilindro_oi": -1.28,
+      "eje_od": 145,
+      "eje_oi": 68,
+      "distancia_pupilar": 59.9,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fa"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd711"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Astigmatismo",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Hipermetropía leve bilateral",
+        "fecha": {
+          "$date": "2025-09-17T01:09:54.931Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: -1.31 -2.25 x 31",
+        "fecha_emision": {
+          "$date": "2025-06-22T01:09:54.931Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:54.931Z"
+        },
+        "activa": true
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6901afb31a3e87e1645cd756"
+      },
+      "fecha_examen": {
+        "$date": "2025-08-09T01:09:55.010Z"
+      },
+      "agudeza_visual_od": "20/40",
+      "agudeza_visual_oi": "20/20",
+      "esfera_od": -0.03,
+      "esfera_oi": -5.28,
+      "cilindro_od": -1.11,
+      "cilindro_oi": -0.26,
+      "eje_od": 107,
+      "eje_oi": 79,
+      "distancia_pupilar": 60.1,
+      "observaciones": "Examen visual completo realizado",
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd701"
+      },
+      "especialista_ref": {
+        "$oid": "6901afad1a3e87e1645cd714"
+      },
+      "diagnostico": {
+        "tipo": {
+          "nombre": "Hipermetropía",
+          "descripcion": "Diagnóstico visual"
+        },
+        "descripcion": "Hipermetropía leve bilateral",
+        "fecha": {
+          "$date": "2025-10-20T01:09:55.010Z"
+        }
+      },
+      "formula": {
+        "descripcion": "OD: 2.2 -1.68 x 81",
+        "fecha_emision": {
+          "$date": "2025-09-01T01:09:55.010Z"
+        },
+        "fecha_vencimiento": {
+          "$date": "2026-10-29T01:09:55.010Z"
+        },
+        "activa": true
+      }
+    }
+  ],
+  "ventas": [
+    {
+      "_id": {
+        "$oid": "6901afb31a3e87e1645cd757"
+      },
+      "numero_factura": "F-2025-1000",
+      "fecha_compra": {
+        "$date": "2025-07-26T01:09:55.323Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd738"
+          },
+          "nombre": "Ray-Ban Lentes de contacto Modelo-17",
+          "cantidad": 2,
+          "precio_unitario": 660097.59,
+          "subtotal": 1320195.18,
+          "descuento": 0,
+          "total": 1320195.18
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd728"
+          },
+          "nombre": "Arnette Monturas oftálmicas Modelo-1",
+          "cantidad": 3,
+          "precio_unitario": 231560.35,
+          "subtotal": 694681.05,
+          "descuento": 0,
+          "total": 694681.05
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd736"
+          },
+          "nombre": "Oakley Gafas formuladas Modelo-15",
+          "cantidad": 1,
+          "precio_unitario": 193576.64,
+          "subtotal": 193576.64,
+          "descuento": 0,
+          "total": 193576.64
+        }
+      ],
+      "subtotal": 2208452.87,
+      "descuento": 163940.6,
+      "impuesto": 388457.33,
+      "total": 2432969.6,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb31a3e87e1645cd758"
+      },
+      "numero_factura": "F-2025-1001",
+      "fecha_compra": {
+        "$date": "2025-06-28T01:09:55.483Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afa91a3e87e1645cd6ea"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd733"
+          },
+          "nombre": "Vogue Gafas formuladas Modelo-12",
+          "cantidad": 1,
+          "precio_unitario": 425594.99,
+          "subtotal": 425594.99,
+          "descuento": 0,
+          "total": 425594.99
+        }
+      ],
+      "subtotal": 425594.99,
+      "descuento": 45828.04,
+      "impuesto": 72155.72,
+      "total": 451922.67000000004,
+      "estado": "Pendiente",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb31a3e87e1645cd759"
+      },
+      "numero_factura": "F-2025-1002",
+      "fecha_compra": {
+        "$date": "2025-08-09T01:09:55.647Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Crédito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afac1a3e87e1645cd705"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72f"
+          },
+          "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+          "cantidad": 2,
+          "precio_unitario": 634655.52,
+          "subtotal": 1269311.04,
+          "descuento": 0,
+          "total": 1269311.04
+        }
+      ],
+      "subtotal": 1269311.04,
+      "descuento": 158475.15,
+      "impuesto": 211058.82,
+      "total": 1321894.7100000002,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb31a3e87e1645cd75a"
+      },
+      "numero_factura": "F-2025-1003",
+      "fecha_compra": {
+        "$date": "2025-05-02T01:09:55.805Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fd"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd734"
+          },
+          "nombre": "Persol Monturas oftálmicas Modelo-13",
+          "cantidad": 1,
+          "precio_unitario": 590900.57,
+          "subtotal": 590900.57,
+          "descuento": 0,
+          "total": 590900.57
+        }
+      ],
+      "subtotal": 590900.57,
+      "descuento": 42283.56,
+      "impuesto": 104237.23,
+      "total": 652854.24,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb41a3e87e1645cd75b"
+      },
+      "numero_factura": "F-2025-1004",
+      "fecha_compra": {
+        "$date": "2025-09-06T01:09:56.039Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f1"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70d"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72d"
+          },
+          "nombre": "Vogue Monturas oftálmicas Modelo-6",
+          "cantidad": 2,
+          "precio_unitario": 439625.19,
+          "subtotal": 879250.38,
+          "descuento": 0,
+          "total": 879250.38
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd734"
+          },
+          "nombre": "Persol Monturas oftálmicas Modelo-13",
+          "cantidad": 3,
+          "precio_unitario": 590900.57,
+          "subtotal": 1772701.71,
+          "descuento": 0,
+          "total": 1772701.71
+        }
+      ],
+      "subtotal": 2651952.09,
+      "descuento": 83221.7,
+      "impuesto": 488058.77,
+      "total": 3056789.1599999997,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb41a3e87e1645cd75c"
+      },
+      "numero_factura": "F-2025-1005",
+      "fecha_compra": {
+        "$date": "2025-07-01T01:09:56.464Z"
+      },
+      "metodo_pago": {
+        "nombre": "Transferencia Bancaria"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6f7"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd734"
+          },
+          "nombre": "Persol Monturas oftálmicas Modelo-13",
+          "cantidad": 2,
+          "precio_unitario": 590900.57,
+          "subtotal": 1181801.14,
+          "descuento": 0,
+          "total": 1181801.14
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd737"
+          },
+          "nombre": "Gucci Gafas de sol Modelo-16",
+          "cantidad": 1,
+          "precio_unitario": 284765.08,
+          "subtotal": 284765.08,
+          "descuento": 0,
+          "total": 284765.08
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72d"
+          },
+          "nombre": "Vogue Monturas oftálmicas Modelo-6",
+          "cantidad": 3,
+          "precio_unitario": 439625.19,
+          "subtotal": 1318875.57,
+          "descuento": 0,
+          "total": 1318875.57
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd737"
+          },
+          "nombre": "Gucci Gafas de sol Modelo-16",
+          "cantidad": 3,
+          "precio_unitario": 284765.08,
+          "subtotal": 854295.24,
+          "descuento": 0,
+          "total": 854295.24
+        }
+      ],
+      "subtotal": 3639737.0300000003,
+      "descuento": 175480.82,
+      "impuesto": 658208.68,
+      "total": 4122464.8900000006,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb41a3e87e1645cd75d"
+      },
+      "numero_factura": "F-2025-1006",
+      "fecha_compra": {
+        "$date": "2025-07-25T01:09:56.785Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd702"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd708"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72a"
+          },
+          "nombre": "Persol Lentes de contacto Modelo-3",
+          "cantidad": 3,
+          "precio_unitario": 206024.53,
+          "subtotal": 618073.59,
+          "descuento": 0,
+          "total": 618073.59
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd728"
+          },
+          "nombre": "Arnette Monturas oftálmicas Modelo-1",
+          "cantidad": 1,
+          "precio_unitario": 231560.35,
+          "subtotal": 231560.35,
+          "descuento": 0,
+          "total": 231560.35
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd736"
+          },
+          "nombre": "Oakley Gafas formuladas Modelo-15",
+          "cantidad": 1,
+          "precio_unitario": 193576.64,
+          "subtotal": 193576.64,
+          "descuento": 0,
+          "total": 193576.64
+        }
+      ],
+      "subtotal": 1043210.58,
+      "descuento": 32325.47,
+      "impuesto": 192068.17,
+      "total": 1202953.28,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb51a3e87e1645cd75e"
+      },
+      "numero_factura": "F-2025-1007",
+      "fecha_compra": {
+        "$date": "2025-07-12T01:09:57.184Z"
+      },
+      "metodo_pago": {
+        "nombre": "Transferencia Bancaria"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fe"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72f"
+          },
+          "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+          "cantidad": 2,
+          "precio_unitario": 634655.52,
+          "subtotal": 1269311.04,
+          "descuento": 0,
+          "total": 1269311.04
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd734"
+          },
+          "nombre": "Persol Monturas oftálmicas Modelo-13",
+          "cantidad": 1,
+          "precio_unitario": 590900.57,
+          "subtotal": 590900.57,
+          "descuento": 0,
+          "total": 590900.57
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72e"
+          },
+          "nombre": "Prada Monturas oftálmicas Modelo-7",
+          "cantidad": 2,
+          "precio_unitario": 125145.02,
+          "subtotal": 250290.04,
+          "descuento": 0,
+          "total": 250290.04
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73a"
+          },
+          "nombre": "Oakley Monturas oftálmicas Modelo-19",
+          "cantidad": 3,
+          "precio_unitario": 209175.89,
+          "subtotal": 627527.67,
+          "descuento": 0,
+          "total": 627527.67
+        }
+      ],
+      "subtotal": 2738029.32,
+      "descuento": 149456.74,
+      "impuesto": 491828.79,
+      "total": 3080401.37,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb51a3e87e1645cd75f"
+      },
+      "numero_factura": "F-2025-1008",
+      "fecha_compra": {
+        "$date": "2025-10-12T01:09:57.341Z"
+      },
+      "metodo_pago": {
+        "nombre": "Transferencia Bancaria"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f1"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70c"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73a"
+          },
+          "nombre": "Oakley Monturas oftálmicas Modelo-19",
+          "cantidad": 1,
+          "precio_unitario": 209175.89,
+          "subtotal": 209175.89,
+          "descuento": 0,
+          "total": 209175.89
+        }
+      ],
+      "subtotal": 209175.89,
+      "descuento": 3120.34,
+      "impuesto": 39150.55,
+      "total": 245206.10000000003,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb51a3e87e1645cd760"
+      },
+      "numero_factura": "F-2025-1009",
+      "fecha_compra": {
+        "$date": "2025-06-25T01:09:57.725Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Crédito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fc"
+      },
+      "asesor_ref": {
+        "$oid": "6901afad1a3e87e1645cd70f"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72e"
+          },
+          "nombre": "Prada Monturas oftálmicas Modelo-7",
+          "cantidad": 1,
+          "precio_unitario": 125145.02,
+          "subtotal": 125145.02,
+          "descuento": 0,
+          "total": 125145.02
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73a"
+          },
+          "nombre": "Oakley Monturas oftálmicas Modelo-19",
+          "cantidad": 3,
+          "precio_unitario": 209175.89,
+          "subtotal": 627527.67,
+          "descuento": 0,
+          "total": 627527.67
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd731"
+          },
+          "nombre": "Prada Lentes de contacto Modelo-10",
+          "cantidad": 1,
+          "precio_unitario": 687885.51,
+          "subtotal": 687885.51,
+          "descuento": 0,
+          "total": 687885.51
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd736"
+          },
+          "nombre": "Oakley Gafas formuladas Modelo-15",
+          "cantidad": 2,
+          "precio_unitario": 193576.64,
+          "subtotal": 387153.28,
+          "descuento": 0,
+          "total": 387153.28
+        }
+      ],
+      "subtotal": 1827711.4800000002,
+      "descuento": 117196.62,
+      "impuesto": 324997.82,
+      "total": 2035512.6800000004,
+      "estado": "Pendiente",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb61a3e87e1645cd761"
+      },
+      "numero_factura": "F-2025-1010",
+      "fecha_compra": {
+        "$date": "2025-05-03T01:09:58.043Z"
+      },
+      "metodo_pago": {
+        "nombre": "Transferencia Bancaria"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f1"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72e"
+          },
+          "nombre": "Prada Monturas oftálmicas Modelo-7",
+          "cantidad": 1,
+          "precio_unitario": 125145.02,
+          "subtotal": 125145.02,
+          "descuento": 0,
+          "total": 125145.02
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73b"
+          },
+          "nombre": "Prada Lentes de contacto Modelo-20",
+          "cantidad": 1,
+          "precio_unitario": 261026.93,
+          "subtotal": 261026.93,
+          "descuento": 0,
+          "total": 261026.93
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72f"
+          },
+          "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+          "cantidad": 3,
+          "precio_unitario": 634655.52,
+          "subtotal": 1903966.56,
+          "descuento": 0,
+          "total": 1903966.56
+        }
+      ],
+      "subtotal": 2290138.5100000002,
+      "descuento": 320884.94,
+      "impuesto": 374158.18,
+      "total": 2343411.7500000005,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb61a3e87e1645cd762"
+      },
+      "numero_factura": "F-2025-1011",
+      "fecha_compra": {
+        "$date": "2025-10-15T01:09:58.207Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Crédito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ec"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70b"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd737"
+          },
+          "nombre": "Gucci Gafas de sol Modelo-16",
+          "cantidad": 2,
+          "precio_unitario": 284765.08,
+          "subtotal": 569530.16,
+          "descuento": 0,
+          "total": 569530.16
+        }
+      ],
+      "subtotal": 569530.16,
+      "descuento": 11522.34,
+      "impuesto": 106021.49,
+      "total": 664029.31,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb61a3e87e1645cd763"
+      },
+      "numero_factura": "F-2025-1012",
+      "fecha_compra": {
+        "$date": "2025-09-15T01:09:58.363Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6f9"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70e"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd728"
+          },
+          "nombre": "Arnette Monturas oftálmicas Modelo-1",
+          "cantidad": 1,
+          "precio_unitario": 231560.35,
+          "subtotal": 231560.35,
+          "descuento": 0,
+          "total": 231560.35
+        }
+      ],
+      "subtotal": 231560.35,
+      "descuento": 22006.8,
+      "impuesto": 39815.17,
+      "total": 249368.72000000003,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb61a3e87e1645cd764"
+      },
+      "numero_factura": "F-2025-1013",
+      "fecha_compra": {
+        "$date": "2025-10-13T01:09:58.615Z"
+      },
+      "metodo_pago": {
+        "nombre": "Efectivo"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f5"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd734"
+          },
+          "nombre": "Persol Monturas oftálmicas Modelo-13",
+          "cantidad": 1,
+          "precio_unitario": 590900.57,
+          "subtotal": 590900.57,
+          "descuento": 0,
+          "total": 590900.57
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd731"
+          },
+          "nombre": "Prada Lentes de contacto Modelo-10",
+          "cantidad": 1,
+          "precio_unitario": 687885.51,
+          "subtotal": 687885.51,
+          "descuento": 0,
+          "total": 687885.51
+        }
+      ],
+      "subtotal": 1278786.08,
+      "descuento": 75410.57,
+      "impuesto": 228641.35,
+      "total": 1432016.86,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb61a3e87e1645cd765"
+      },
+      "numero_factura": "F-2025-1014",
+      "fecha_compra": {
+        "$date": "2025-07-06T01:09:58.858Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Crédito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fb"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70a"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd736"
+          },
+          "nombre": "Oakley Gafas formuladas Modelo-15",
+          "cantidad": 1,
+          "precio_unitario": 193576.64,
+          "subtotal": 193576.64,
+          "descuento": 0,
+          "total": 193576.64
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd729"
+          },
+          "nombre": "Prada Gafas formuladas Modelo-2",
+          "cantidad": 3,
+          "precio_unitario": 569863.93,
+          "subtotal": 1709591.79,
+          "descuento": 0,
+          "total": 1709591.79
+        }
+      ],
+      "subtotal": 1903168.4300000002,
+      "descuento": 42109.49,
+      "impuesto": 353601.2,
+      "total": 2214660.14,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb71a3e87e1645cd766"
+      },
+      "numero_factura": "F-2025-1015",
+      "fecha_compra": {
+        "$date": "2025-09-02T01:09:59.258Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Débito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6ee"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70b"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72e"
+          },
+          "nombre": "Prada Monturas oftálmicas Modelo-7",
+          "cantidad": 3,
+          "precio_unitario": 125145.02,
+          "subtotal": 375435.06,
+          "descuento": 0,
+          "total": 375435.06
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd736"
+          },
+          "nombre": "Oakley Gafas formuladas Modelo-15",
+          "cantidad": 3,
+          "precio_unitario": 193576.64,
+          "subtotal": 580729.92,
+          "descuento": 0,
+          "total": 580729.92
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73a"
+          },
+          "nombre": "Oakley Monturas oftálmicas Modelo-19",
+          "cantidad": 1,
+          "precio_unitario": 209175.89,
+          "subtotal": 209175.89,
+          "descuento": 0,
+          "total": 209175.89
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73b"
+          },
+          "nombre": "Prada Lentes de contacto Modelo-20",
+          "cantidad": 1,
+          "precio_unitario": 261026.93,
+          "subtotal": 261026.93,
+          "descuento": 0,
+          "total": 261026.93
+        }
+      ],
+      "subtotal": 1426367.8,
+      "descuento": 11197.92,
+      "impuesto": 268882.28,
+      "total": 1684052.1600000001,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb71a3e87e1645cd767"
+      },
+      "numero_factura": "F-2025-1016",
+      "fecha_compra": {
+        "$date": "2025-05-20T01:09:59.574Z"
+      },
+      "metodo_pago": {
+        "nombre": "Transferencia Bancaria"
+      },
+      "cliente_ref": {
+        "$oid": "6901afab1a3e87e1645cd6fa"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd709"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd735"
+          },
+          "nombre": "Carrera Lentes de contacto Modelo-14",
+          "cantidad": 1,
+          "precio_unitario": 787041.41,
+          "subtotal": 787041.41,
+          "descuento": 0,
+          "total": 787041.41
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72c"
+          },
+          "nombre": "Oakley Monturas oftálmicas Modelo-5",
+          "cantidad": 2,
+          "precio_unitario": 645559.99,
+          "subtotal": 1291119.98,
+          "descuento": 0,
+          "total": 1291119.98
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd73b"
+          },
+          "nombre": "Prada Lentes de contacto Modelo-20",
+          "cantidad": 1,
+          "precio_unitario": 261026.93,
+          "subtotal": 261026.93,
+          "descuento": 0,
+          "total": 261026.93
+        }
+      ],
+      "subtotal": 2339188.3200000003,
+      "descuento": 186089.24,
+      "impuesto": 409088.83,
+      "total": 2562187.91,
+      "estado": "Completada",
+      "observaciones": ""
+    },
+    {
+      "_id": {
+        "$oid": "6901afb71a3e87e1645cd768"
+      },
+      "numero_factura": "F-2025-1017",
+      "fecha_compra": {
+        "$date": "2025-07-26T01:09:59.969Z"
+      },
+      "metodo_pago": {
+        "nombre": "Tarjeta de Débito"
+      },
+      "cliente_ref": {
+        "$oid": "6901afaa1a3e87e1645cd6f6"
+      },
+      "asesor_ref": {
+        "$oid": "6901afac1a3e87e1645cd70b"
+      },
+      "items": [
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72a"
+          },
+          "nombre": "Persol Lentes de contacto Modelo-3",
+          "cantidad": 3,
+          "precio_unitario": 206024.53,
+          "subtotal": 618073.59,
+          "descuento": 0,
+          "total": 618073.59
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd728"
+          },
+          "nombre": "Arnette Monturas oftálmicas Modelo-1",
+          "cantidad": 2,
+          "precio_unitario": 231560.35,
+          "subtotal": 463120.7,
+          "descuento": 0,
+          "total": 463120.7
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afb01a3e87e1645cd733"
+          },
+          "nombre": "Vogue Gafas formuladas Modelo-12",
+          "cantidad": 3,
+          "precio_unitario": 425594.99,
+          "subtotal": 1276784.97,
+          "descuento": 0,
+          "total": 1276784.97
+        },
+        {
+          "producto_ref": {
+            "$oid": "6901afaf1a3e87e1645cd72d"
+          },
+          "nombre": "Vogue Monturas oftálmicas Modelo-6",
+          "cantidad": 1,
+          "precio_unitario": 439625.19,
+          "subtotal": 439625.19,
+          "descuento": 0,
+          "total": 439625.19
+        }
+      ],
+      "subtotal": 2797604.4499999997,
+      "descuento": 73832.59,
+      "impuesto": 517516.65,
+      "total": 3241288.51,
+      "estado": "Completada",
+      "observaciones": ""
+    }
+  ]
+}

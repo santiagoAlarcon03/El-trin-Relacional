@@ -1,0 +1,954 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afb31a3e87e1645cd757"
+    },
+    "numero_factura": "F-2025-1000",
+    "fecha_compra": {
+      "$date": "2025-07-26T01:09:55.323Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd738"
+        },
+        "nombre": "Ray-Ban Lentes de contacto Modelo-17",
+        "cantidad": 2,
+        "precio_unitario": 660097.59,
+        "subtotal": 1320195.18,
+        "descuento": 0,
+        "total": 1320195.18
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd728"
+        },
+        "nombre": "Arnette Monturas oftálmicas Modelo-1",
+        "cantidad": 3,
+        "precio_unitario": 231560.35,
+        "subtotal": 694681.05,
+        "descuento": 0,
+        "total": 694681.05
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd736"
+        },
+        "nombre": "Oakley Gafas formuladas Modelo-15",
+        "cantidad": 1,
+        "precio_unitario": 193576.64,
+        "subtotal": 193576.64,
+        "descuento": 0,
+        "total": 193576.64
+      }
+    ],
+    "subtotal": 2208452.87,
+    "descuento": 163940.6,
+    "impuesto": 388457.33,
+    "total": 2432969.6,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb31a3e87e1645cd758"
+    },
+    "numero_factura": "F-2025-1001",
+    "fecha_compra": {
+      "$date": "2025-06-28T01:09:55.483Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afa91a3e87e1645cd6ea"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd733"
+        },
+        "nombre": "Vogue Gafas formuladas Modelo-12",
+        "cantidad": 1,
+        "precio_unitario": 425594.99,
+        "subtotal": 425594.99,
+        "descuento": 0,
+        "total": 425594.99
+      }
+    ],
+    "subtotal": 425594.99,
+    "descuento": 45828.04,
+    "impuesto": 72155.72,
+    "total": 451922.67000000004,
+    "estado": "Pendiente",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb31a3e87e1645cd759"
+    },
+    "numero_factura": "F-2025-1002",
+    "fecha_compra": {
+      "$date": "2025-08-09T01:09:55.647Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Crédito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd705"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72f"
+        },
+        "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+        "cantidad": 2,
+        "precio_unitario": 634655.52,
+        "subtotal": 1269311.04,
+        "descuento": 0,
+        "total": 1269311.04
+      }
+    ],
+    "subtotal": 1269311.04,
+    "descuento": 158475.15,
+    "impuesto": 211058.82,
+    "total": 1321894.7100000002,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb31a3e87e1645cd75a"
+    },
+    "numero_factura": "F-2025-1003",
+    "fecha_compra": {
+      "$date": "2025-05-02T01:09:55.805Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fd"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd734"
+        },
+        "nombre": "Persol Monturas oftálmicas Modelo-13",
+        "cantidad": 1,
+        "precio_unitario": 590900.57,
+        "subtotal": 590900.57,
+        "descuento": 0,
+        "total": 590900.57
+      }
+    ],
+    "subtotal": 590900.57,
+    "descuento": 42283.56,
+    "impuesto": 104237.23,
+    "total": 652854.24,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb41a3e87e1645cd75b"
+    },
+    "numero_factura": "F-2025-1004",
+    "fecha_compra": {
+      "$date": "2025-09-06T01:09:56.039Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f1"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70d"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72d"
+        },
+        "nombre": "Vogue Monturas oftálmicas Modelo-6",
+        "cantidad": 2,
+        "precio_unitario": 439625.19,
+        "subtotal": 879250.38,
+        "descuento": 0,
+        "total": 879250.38
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd734"
+        },
+        "nombre": "Persol Monturas oftálmicas Modelo-13",
+        "cantidad": 3,
+        "precio_unitario": 590900.57,
+        "subtotal": 1772701.71,
+        "descuento": 0,
+        "total": 1772701.71
+      }
+    ],
+    "subtotal": 2651952.09,
+    "descuento": 83221.7,
+    "impuesto": 488058.77,
+    "total": 3056789.1599999997,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb41a3e87e1645cd75c"
+    },
+    "numero_factura": "F-2025-1005",
+    "fecha_compra": {
+      "$date": "2025-07-01T01:09:56.464Z"
+    },
+    "metodo_pago": {
+      "nombre": "Transferencia Bancaria"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6f7"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd734"
+        },
+        "nombre": "Persol Monturas oftálmicas Modelo-13",
+        "cantidad": 2,
+        "precio_unitario": 590900.57,
+        "subtotal": 1181801.14,
+        "descuento": 0,
+        "total": 1181801.14
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd737"
+        },
+        "nombre": "Gucci Gafas de sol Modelo-16",
+        "cantidad": 1,
+        "precio_unitario": 284765.08,
+        "subtotal": 284765.08,
+        "descuento": 0,
+        "total": 284765.08
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72d"
+        },
+        "nombre": "Vogue Monturas oftálmicas Modelo-6",
+        "cantidad": 3,
+        "precio_unitario": 439625.19,
+        "subtotal": 1318875.57,
+        "descuento": 0,
+        "total": 1318875.57
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd737"
+        },
+        "nombre": "Gucci Gafas de sol Modelo-16",
+        "cantidad": 3,
+        "precio_unitario": 284765.08,
+        "subtotal": 854295.24,
+        "descuento": 0,
+        "total": 854295.24
+      }
+    ],
+    "subtotal": 3639737.0300000003,
+    "descuento": 175480.82,
+    "impuesto": 658208.68,
+    "total": 4122464.8900000006,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb41a3e87e1645cd75d"
+    },
+    "numero_factura": "F-2025-1006",
+    "fecha_compra": {
+      "$date": "2025-07-25T01:09:56.785Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd702"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd708"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72a"
+        },
+        "nombre": "Persol Lentes de contacto Modelo-3",
+        "cantidad": 3,
+        "precio_unitario": 206024.53,
+        "subtotal": 618073.59,
+        "descuento": 0,
+        "total": 618073.59
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd728"
+        },
+        "nombre": "Arnette Monturas oftálmicas Modelo-1",
+        "cantidad": 1,
+        "precio_unitario": 231560.35,
+        "subtotal": 231560.35,
+        "descuento": 0,
+        "total": 231560.35
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd736"
+        },
+        "nombre": "Oakley Gafas formuladas Modelo-15",
+        "cantidad": 1,
+        "precio_unitario": 193576.64,
+        "subtotal": 193576.64,
+        "descuento": 0,
+        "total": 193576.64
+      }
+    ],
+    "subtotal": 1043210.58,
+    "descuento": 32325.47,
+    "impuesto": 192068.17,
+    "total": 1202953.28,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb51a3e87e1645cd75e"
+    },
+    "numero_factura": "F-2025-1007",
+    "fecha_compra": {
+      "$date": "2025-07-12T01:09:57.184Z"
+    },
+    "metodo_pago": {
+      "nombre": "Transferencia Bancaria"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fe"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72f"
+        },
+        "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+        "cantidad": 2,
+        "precio_unitario": 634655.52,
+        "subtotal": 1269311.04,
+        "descuento": 0,
+        "total": 1269311.04
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd734"
+        },
+        "nombre": "Persol Monturas oftálmicas Modelo-13",
+        "cantidad": 1,
+        "precio_unitario": 590900.57,
+        "subtotal": 590900.57,
+        "descuento": 0,
+        "total": 590900.57
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72e"
+        },
+        "nombre": "Prada Monturas oftálmicas Modelo-7",
+        "cantidad": 2,
+        "precio_unitario": 125145.02,
+        "subtotal": 250290.04,
+        "descuento": 0,
+        "total": 250290.04
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73a"
+        },
+        "nombre": "Oakley Monturas oftálmicas Modelo-19",
+        "cantidad": 3,
+        "precio_unitario": 209175.89,
+        "subtotal": 627527.67,
+        "descuento": 0,
+        "total": 627527.67
+      }
+    ],
+    "subtotal": 2738029.32,
+    "descuento": 149456.74,
+    "impuesto": 491828.79,
+    "total": 3080401.37,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb51a3e87e1645cd75f"
+    },
+    "numero_factura": "F-2025-1008",
+    "fecha_compra": {
+      "$date": "2025-10-12T01:09:57.341Z"
+    },
+    "metodo_pago": {
+      "nombre": "Transferencia Bancaria"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f1"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70c"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73a"
+        },
+        "nombre": "Oakley Monturas oftálmicas Modelo-19",
+        "cantidad": 1,
+        "precio_unitario": 209175.89,
+        "subtotal": 209175.89,
+        "descuento": 0,
+        "total": 209175.89
+      }
+    ],
+    "subtotal": 209175.89,
+    "descuento": 3120.34,
+    "impuesto": 39150.55,
+    "total": 245206.10000000003,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb51a3e87e1645cd760"
+    },
+    "numero_factura": "F-2025-1009",
+    "fecha_compra": {
+      "$date": "2025-06-25T01:09:57.725Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Crédito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fc"
+    },
+    "asesor_ref": {
+      "$oid": "6901afad1a3e87e1645cd70f"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72e"
+        },
+        "nombre": "Prada Monturas oftálmicas Modelo-7",
+        "cantidad": 1,
+        "precio_unitario": 125145.02,
+        "subtotal": 125145.02,
+        "descuento": 0,
+        "total": 125145.02
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73a"
+        },
+        "nombre": "Oakley Monturas oftálmicas Modelo-19",
+        "cantidad": 3,
+        "precio_unitario": 209175.89,
+        "subtotal": 627527.67,
+        "descuento": 0,
+        "total": 627527.67
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd731"
+        },
+        "nombre": "Prada Lentes de contacto Modelo-10",
+        "cantidad": 1,
+        "precio_unitario": 687885.51,
+        "subtotal": 687885.51,
+        "descuento": 0,
+        "total": 687885.51
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd736"
+        },
+        "nombre": "Oakley Gafas formuladas Modelo-15",
+        "cantidad": 2,
+        "precio_unitario": 193576.64,
+        "subtotal": 387153.28,
+        "descuento": 0,
+        "total": 387153.28
+      }
+    ],
+    "subtotal": 1827711.4800000002,
+    "descuento": 117196.62,
+    "impuesto": 324997.82,
+    "total": 2035512.6800000004,
+    "estado": "Pendiente",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb61a3e87e1645cd761"
+    },
+    "numero_factura": "F-2025-1010",
+    "fecha_compra": {
+      "$date": "2025-05-03T01:09:58.043Z"
+    },
+    "metodo_pago": {
+      "nombre": "Transferencia Bancaria"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f1"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72e"
+        },
+        "nombre": "Prada Monturas oftálmicas Modelo-7",
+        "cantidad": 1,
+        "precio_unitario": 125145.02,
+        "subtotal": 125145.02,
+        "descuento": 0,
+        "total": 125145.02
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73b"
+        },
+        "nombre": "Prada Lentes de contacto Modelo-20",
+        "cantidad": 1,
+        "precio_unitario": 261026.93,
+        "subtotal": 261026.93,
+        "descuento": 0,
+        "total": 261026.93
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72f"
+        },
+        "nombre": "Ray-Ban Lentes de contacto Modelo-8",
+        "cantidad": 3,
+        "precio_unitario": 634655.52,
+        "subtotal": 1903966.56,
+        "descuento": 0,
+        "total": 1903966.56
+      }
+    ],
+    "subtotal": 2290138.5100000002,
+    "descuento": 320884.94,
+    "impuesto": 374158.18,
+    "total": 2343411.7500000005,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb61a3e87e1645cd762"
+    },
+    "numero_factura": "F-2025-1011",
+    "fecha_compra": {
+      "$date": "2025-10-15T01:09:58.207Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Crédito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ec"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70b"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd737"
+        },
+        "nombre": "Gucci Gafas de sol Modelo-16",
+        "cantidad": 2,
+        "precio_unitario": 284765.08,
+        "subtotal": 569530.16,
+        "descuento": 0,
+        "total": 569530.16
+      }
+    ],
+    "subtotal": 569530.16,
+    "descuento": 11522.34,
+    "impuesto": 106021.49,
+    "total": 664029.31,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb61a3e87e1645cd763"
+    },
+    "numero_factura": "F-2025-1012",
+    "fecha_compra": {
+      "$date": "2025-09-15T01:09:58.363Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6f9"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd728"
+        },
+        "nombre": "Arnette Monturas oftálmicas Modelo-1",
+        "cantidad": 1,
+        "precio_unitario": 231560.35,
+        "subtotal": 231560.35,
+        "descuento": 0,
+        "total": 231560.35
+      }
+    ],
+    "subtotal": 231560.35,
+    "descuento": 22006.8,
+    "impuesto": 39815.17,
+    "total": 249368.72000000003,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb61a3e87e1645cd764"
+    },
+    "numero_factura": "F-2025-1013",
+    "fecha_compra": {
+      "$date": "2025-10-13T01:09:58.615Z"
+    },
+    "metodo_pago": {
+      "nombre": "Efectivo"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f5"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd734"
+        },
+        "nombre": "Persol Monturas oftálmicas Modelo-13",
+        "cantidad": 1,
+        "precio_unitario": 590900.57,
+        "subtotal": 590900.57,
+        "descuento": 0,
+        "total": 590900.57
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd731"
+        },
+        "nombre": "Prada Lentes de contacto Modelo-10",
+        "cantidad": 1,
+        "precio_unitario": 687885.51,
+        "subtotal": 687885.51,
+        "descuento": 0,
+        "total": 687885.51
+      }
+    ],
+    "subtotal": 1278786.08,
+    "descuento": 75410.57,
+    "impuesto": 228641.35,
+    "total": 1432016.86,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb61a3e87e1645cd765"
+    },
+    "numero_factura": "F-2025-1014",
+    "fecha_compra": {
+      "$date": "2025-07-06T01:09:58.858Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Crédito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fb"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd736"
+        },
+        "nombre": "Oakley Gafas formuladas Modelo-15",
+        "cantidad": 1,
+        "precio_unitario": 193576.64,
+        "subtotal": 193576.64,
+        "descuento": 0,
+        "total": 193576.64
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd729"
+        },
+        "nombre": "Prada Gafas formuladas Modelo-2",
+        "cantidad": 3,
+        "precio_unitario": 569863.93,
+        "subtotal": 1709591.79,
+        "descuento": 0,
+        "total": 1709591.79
+      }
+    ],
+    "subtotal": 1903168.4300000002,
+    "descuento": 42109.49,
+    "impuesto": 353601.2,
+    "total": 2214660.14,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb71a3e87e1645cd766"
+    },
+    "numero_factura": "F-2025-1015",
+    "fecha_compra": {
+      "$date": "2025-09-02T01:09:59.258Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Débito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70b"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72e"
+        },
+        "nombre": "Prada Monturas oftálmicas Modelo-7",
+        "cantidad": 3,
+        "precio_unitario": 125145.02,
+        "subtotal": 375435.06,
+        "descuento": 0,
+        "total": 375435.06
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd736"
+        },
+        "nombre": "Oakley Gafas formuladas Modelo-15",
+        "cantidad": 3,
+        "precio_unitario": 193576.64,
+        "subtotal": 580729.92,
+        "descuento": 0,
+        "total": 580729.92
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73a"
+        },
+        "nombre": "Oakley Monturas oftálmicas Modelo-19",
+        "cantidad": 1,
+        "precio_unitario": 209175.89,
+        "subtotal": 209175.89,
+        "descuento": 0,
+        "total": 209175.89
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73b"
+        },
+        "nombre": "Prada Lentes de contacto Modelo-20",
+        "cantidad": 1,
+        "precio_unitario": 261026.93,
+        "subtotal": 261026.93,
+        "descuento": 0,
+        "total": 261026.93
+      }
+    ],
+    "subtotal": 1426367.8,
+    "descuento": 11197.92,
+    "impuesto": 268882.28,
+    "total": 1684052.1600000001,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb71a3e87e1645cd767"
+    },
+    "numero_factura": "F-2025-1016",
+    "fecha_compra": {
+      "$date": "2025-05-20T01:09:59.574Z"
+    },
+    "metodo_pago": {
+      "nombre": "Transferencia Bancaria"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fa"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd735"
+        },
+        "nombre": "Carrera Lentes de contacto Modelo-14",
+        "cantidad": 1,
+        "precio_unitario": 787041.41,
+        "subtotal": 787041.41,
+        "descuento": 0,
+        "total": 787041.41
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72c"
+        },
+        "nombre": "Oakley Monturas oftálmicas Modelo-5",
+        "cantidad": 2,
+        "precio_unitario": 645559.99,
+        "subtotal": 1291119.98,
+        "descuento": 0,
+        "total": 1291119.98
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd73b"
+        },
+        "nombre": "Prada Lentes de contacto Modelo-20",
+        "cantidad": 1,
+        "precio_unitario": 261026.93,
+        "subtotal": 261026.93,
+        "descuento": 0,
+        "total": 261026.93
+      }
+    ],
+    "subtotal": 2339188.3200000003,
+    "descuento": 186089.24,
+    "impuesto": 409088.83,
+    "total": 2562187.91,
+    "estado": "Completada",
+    "observaciones": ""
+  },
+  {
+    "_id": {
+      "$oid": "6901afb71a3e87e1645cd768"
+    },
+    "numero_factura": "F-2025-1017",
+    "fecha_compra": {
+      "$date": "2025-07-26T01:09:59.969Z"
+    },
+    "metodo_pago": {
+      "nombre": "Tarjeta de Débito"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f6"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70b"
+    },
+    "items": [
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72a"
+        },
+        "nombre": "Persol Lentes de contacto Modelo-3",
+        "cantidad": 3,
+        "precio_unitario": 206024.53,
+        "subtotal": 618073.59,
+        "descuento": 0,
+        "total": 618073.59
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd728"
+        },
+        "nombre": "Arnette Monturas oftálmicas Modelo-1",
+        "cantidad": 2,
+        "precio_unitario": 231560.35,
+        "subtotal": 463120.7,
+        "descuento": 0,
+        "total": 463120.7
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afb01a3e87e1645cd733"
+        },
+        "nombre": "Vogue Gafas formuladas Modelo-12",
+        "cantidad": 3,
+        "precio_unitario": 425594.99,
+        "subtotal": 1276784.97,
+        "descuento": 0,
+        "total": 1276784.97
+      },
+      {
+        "producto_ref": {
+          "$oid": "6901afaf1a3e87e1645cd72d"
+        },
+        "nombre": "Vogue Monturas oftálmicas Modelo-6",
+        "cantidad": 1,
+        "precio_unitario": 439625.19,
+        "subtotal": 439625.19,
+        "descuento": 0,
+        "total": 439625.19
+      }
+    ],
+    "subtotal": 2797604.4499999997,
+    "descuento": 73832.59,
+    "impuesto": 517516.65,
+    "total": 3241288.51,
+    "estado": "Completada",
+    "observaciones": ""
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd716"
+    },
+    "nombre_proveedor": "LentesPro Internacional",
+    "contacto_principal": "Camilo Romero",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/0066cc/ffffff?text=LentesPro",
+    "direcciones": [
+      {
+        "calle": "Carrera 28 #84-31",
+        "ciudad": "Cali",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110996",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "615258355",
+        "extension": "118"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ventas@lentesprointernacional.com",
+        "tipo": "Ventas"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd717"
+    },
+    "nombre_proveedor": "Monturas Premium",
+    "contacto_principal": "Mateo Ruiz",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/cc0000/ffffff?text=MonturasPremium",
+    "direcciones": [
+      {
+        "calle": "Carrera 14 #35-42",
+        "ciudad": "Barranquilla",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110022",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "613264108",
+        "extension": "745"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ventas@monturaspremium.com",
+        "tipo": "Ventas"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd718"
+    },
+    "nombre_proveedor": "VisualTech SA",
+    "contacto_principal": "Manuel Díaz",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/00cc66/ffffff?text=VisualTech",
+    "direcciones": [
+      {
+        "calle": "Carrera 98 #17-30",
+        "ciudad": "Armenia",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110589",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "616710195",
+        "extension": "748"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ventas@visualtechsa.com",
+        "tipo": "Ventas"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd719"
+    },
+    "nombre_proveedor": "Óptica Mayorista",
+    "contacto_principal": "Santiago Hernández",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/ff9900/ffffff?text=OpticaMayorista",
+    "direcciones": [
+      {
+        "calle": "Carrera 64 #33-69",
+        "ciudad": "Armenia",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110935",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "615483808",
+        "extension": "583"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ventas@ópticamayorista.com",
+        "tipo": "Ventas"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd71a"
+    },
+    "nombre_proveedor": "GlobalVision",
+    "contacto_principal": "Alejandro Álvarez",
+    "activo": true,
+    "logo": "https://via.placeholder.com/200x80/9900cc/ffffff?text=GlobalVision",
+    "direcciones": [
+      {
+        "calle": "Carrera 91 #34-57",
+        "ciudad": "Cali",
+        "estado": "Cundinamarca",
+        "codigo_postal": "110194",
+        "pais": "Colombia"
+      }
+    ],
+    "telefonos": [
+      {
+        "telefono": "610110523",
+        "extension": "844"
+      }
+    ],
+    "emails": [
+      {
+        "email": "ventas@globalvision.com",
+        "tipo": "Ventas"
+      }
+    ]
+  }
+]

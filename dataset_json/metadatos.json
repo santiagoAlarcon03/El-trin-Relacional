@@ -1,0 +1,33 @@
+{
+  "nombre_proyecto": "Base de Datos Óptica",
+  "fecha_generacion": {
+    "$date": "2023-02-19T01:09:45.953Z"
+  },
+  "base_de_datos": "optica_db",
+  "total_documentos": 128,
+  "total_imagenes": 92,
+  "colecciones": {
+    "catalogos": 1,
+    "clientes": 30,
+    "asesores": 8,
+    "especialistas": 6,
+    "proveedores": 5,
+    "laboratorios": 3,
+    "suministros": 10,
+    "productos": 20,
+    "citas": 15,
+    "examenes": 12,
+    "ventas": 18
+  },
+  "tipos_imagenes": {
+    "fotos_perfil": 44,
+    "logos": 8,
+    "imagenes_productos": 40
+  },
+  "fuentes_imagenes": {
+    "avatares": "https://pravatar.cc",
+    "productos": "https://unsplash.com (fotos gratuitas)",
+    "logos": "https://via.placeholder.com"
+  },
+  "formato": "JSON válido con soporte para ObjectId ($oid) y DateTime ($date)"
+}

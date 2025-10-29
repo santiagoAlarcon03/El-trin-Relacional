@@ -1,0 +1,392 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd73c"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-05T01:09:52.813Z"
+    },
+    "hora_cita": "14:30:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd707"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70d"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Programada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-23T01:09:52.813Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd73d"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-12T01:09:52.893Z"
+    },
+    "hora_cita": "13:30:00",
+    "motivo": {
+      "descripcion": "Examen visual de rutina"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fb"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70d"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd710"
+    },
+    "estado": "Programada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-09-29T01:09:52.894Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb01a3e87e1645cd73e"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-26T01:09:52.972Z"
+    },
+    "hora_cita": "8:00:00",
+    "motivo": {
+      "descripcion": "Consulta por molestias visuales"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f3"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Cancelada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-07T01:09:52.972Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd73f"
+    },
+    "fecha_cita": {
+      "$date": "2025-10-24T01:09:53.051Z"
+    },
+    "hora_cita": "16:00:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd705"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Programada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-09-29T01:09:53.051Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd740"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-02T01:09:53.130Z"
+    },
+    "hora_cita": "9:00:00",
+    "motivo": {
+      "descripcion": "Ajuste de monturas"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fc"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd711"
+    },
+    "estado": "Cancelada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-01T01:09:53.130Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd741"
+    },
+    "fecha_cita": {
+      "$date": "2025-11-18T01:09:53.214Z"
+    },
+    "hora_cita": "14:00:00",
+    "motivo": {
+      "descripcion": "Ajuste de monturas"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70e"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd711"
+    },
+    "estado": "Cancelada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-09T01:09:53.214Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd742"
+    },
+    "fecha_cita": {
+      "$date": "2025-10-16T01:09:53.304Z"
+    },
+    "hora_cita": "16:00:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd706"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Completada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-01T01:09:53.304Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd743"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-20T01:09:53.396Z"
+    },
+    "hora_cita": "17:00:00",
+    "motivo": {
+      "descripcion": "Examen visual de rutina"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f1"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd708"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd712"
+    },
+    "estado": "Programada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-13T01:09:53.396Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd744"
+    },
+    "fecha_cita": {
+      "$date": "2025-10-23T01:09:53.474Z"
+    },
+    "hora_cita": "18:00:00",
+    "motivo": {
+      "descripcion": "Ajuste de monturas"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Completada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-20T01:09:53.474Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd745"
+    },
+    "fecha_cita": {
+      "$date": "2025-12-02T01:09:53.554Z"
+    },
+    "hora_cita": "15:00:00",
+    "motivo": {
+      "descripcion": "Consulta por molestias visuales"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd705"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70d"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd712"
+    },
+    "estado": "Programada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-26T01:09:53.554Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd746"
+    },
+    "fecha_cita": {
+      "$date": "2025-10-07T01:09:53.636Z"
+    },
+    "hora_cita": "13:00:00",
+    "motivo": {
+      "descripcion": "Examen visual de rutina"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6f6"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd708"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "estado": "Confirmada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-03T01:09:53.636Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd747"
+    },
+    "fecha_cita": {
+      "$date": "2025-11-12T01:09:53.716Z"
+    },
+    "hora_cita": "15:00:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6f7"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70c"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "estado": "Cancelada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-27T01:09:53.716Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd748"
+    },
+    "fecha_cita": {
+      "$date": "2025-10-20T01:09:53.793Z"
+    },
+    "hora_cita": "16:00:00",
+    "motivo": {
+      "descripcion": "Examen visual de rutina"
+    },
+    "cliente_ref": {
+      "$oid": "6901afaa1a3e87e1645cd6ee"
+    },
+    "asesor_ref": {
+      "$oid": "6901afad1a3e87e1645cd70f"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd710"
+    },
+    "estado": "Completada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-09T01:09:53.793Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd749"
+    },
+    "fecha_cita": {
+      "$date": "2025-11-27T01:09:53.873Z"
+    },
+    "hora_cita": "14:00:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afac1a3e87e1645cd706"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd709"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "estado": "Completada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-10T01:09:53.873Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6901afb11a3e87e1645cd74a"
+    },
+    "fecha_cita": {
+      "$date": "2025-11-17T01:09:53.956Z"
+    },
+    "hora_cita": "8:30:00",
+    "motivo": {
+      "descripcion": "Revisión de lentes"
+    },
+    "cliente_ref": {
+      "$oid": "6901afab1a3e87e1645cd6fa"
+    },
+    "asesor_ref": {
+      "$oid": "6901afac1a3e87e1645cd70a"
+    },
+    "especialista_ref": {
+      "$oid": "6901afad1a3e87e1645cd714"
+    },
+    "estado": "Confirmada",
+    "observaciones": "",
+    "fecha_creacion": {
+      "$date": "2025-10-23T01:09:53.956Z"
+    }
+  }
+]

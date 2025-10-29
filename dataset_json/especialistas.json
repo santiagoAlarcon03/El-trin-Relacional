@@ -1,0 +1,194 @@
+[
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd710"
+    },
+    "nombre": "Claudia",
+    "apellido": "González",
+    "numero_licencia": "OPT-17748",
+    "numero_documento": "1388522489",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=33",
+    "especialidades": [
+      {
+        "nombre": "Optometría",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2016-11-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3118226681",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.claudia.gonzález@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd711"
+    },
+    "nombre": "Felipe",
+    "apellido": "Martínez",
+    "numero_licencia": "OPT-41571",
+    "numero_documento": "1700826837",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=27",
+    "especialidades": [
+      {
+        "nombre": "Oftalmología",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2011-04-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3118966324",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.felipe.martínez@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd712"
+    },
+    "nombre": "Diana",
+    "apellido": "Pérez",
+    "numero_licencia": "OPT-30429",
+    "numero_documento": "1563333559",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=27",
+    "especialidades": [
+      {
+        "nombre": "Contactología",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2018-02-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3174488857",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.diana.pérez@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd713"
+    },
+    "nombre": "Sofía",
+    "apellido": "Martínez",
+    "numero_licencia": "OFT-25471",
+    "numero_documento": "1462407815",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=55",
+    "especialidades": [
+      {
+        "nombre": "Contactología",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2017-07-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3160057367",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.sofía.martínez@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd714"
+    },
+    "nombre": "Juliana",
+    "apellido": "Sánchez",
+    "numero_licencia": "OFT-76502",
+    "numero_documento": "1985931413",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=40",
+    "especialidades": [
+      {
+        "nombre": "Optometría",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2023-01-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3128393014",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.juliana.sánchez@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6901afad1a3e87e1645cd715"
+    },
+    "nombre": "Natalia",
+    "apellido": "González",
+    "numero_licencia": "OFT-66620",
+    "numero_documento": "1174703112",
+    "activo": true,
+    "foto_perfil": "https://i.pravatar.cc/300?img=24",
+    "especialidades": [
+      {
+        "nombre": "Oftalmología",
+        "descripcion": "Especialidad en salud visual",
+        "fecha_certificacion": {
+          "$date": "2012-03-01T00:00:00Z"
+        }
+      }
+    ],
+    "telefonos": [
+      {
+        "numero": "3107334628",
+        "tipo": "Móvil"
+      }
+    ],
+    "emails": [
+      {
+        "email": "dr.natalia.gonzález@optica.com",
+        "tipo": "Profesional"
+      }
+    ]
+  }
+]
