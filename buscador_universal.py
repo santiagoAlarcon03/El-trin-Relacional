@@ -1,28 +1,52 @@
 """
 Buscador Universal de Imágenes
 Busca en TODAS las colecciones que tengan imágenes usando Vector Search
+ACTUALIZADO: Usa embeddings REALES con Sentence-BERT
 """
 
 from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
+import sys
+
+# Agregar directorio raíz al path para importar módulo rag
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 load_dotenv()
 client = MongoClient(os.getenv('MONGODB_URI'))
 db = client['optica_db']
 
+# Importar generador de embeddings reales
+try:
+    from rag.embeddings import generar_embedding, similitud_coseno as calcular_similitud
+    USAR_EMBEDDINGS_REALES = True
+    print("✅ Usando embeddings REALES (Sentence-BERT)")
+except ImportError:
+    print("⚠️ Módulo rag.embeddings no encontrado, usando embeddings simulados")
+    USAR_EMBEDDINGS_REALES = False
+    
+    def generar_embedding(texto):
+        """Fallback: embedding simulado si no está el módulo real"""
+        import hashlib
+        import numpy as np
+        
+        hash_obj = hashlib.sha256(texto.encode())
+        seed = int(hash_obj.hexdigest(), 16) % (2**32)
+        np.random.seed(seed)
+        
+        embedding = np.random.randn(384).tolist()
+        norm = sum(x*x for x in embedding) ** 0.5
+        return [x / norm for x in embedding]
+    
+    def calcular_similitud(emb1, emb2):
+        """Similitud coseno manual"""
+        return sum(a*b for a, b in zip(emb1, emb2))
+
+
+# Alias para compatibilidad con código anterior
 def generar_embedding_simple(texto):
-    """Genera embedding de 384 dimensiones basado en texto"""
-    import hashlib
-    import numpy as np
-    
-    hash_obj = hashlib.sha256(texto.encode())
-    seed = int(hash_obj.hexdigest(), 16) % (2**32)
-    np.random.seed(seed)
-    
-    embedding = np.random.randn(384).tolist()
-    norm = sum(x*x for x in embedding) ** 0.5
-    return [x / norm for x in embedding]
+    """Alias para compatibilidad con código anterior"""
+    return generar_embedding(texto)
 
 
 class BuscadorImagenesUniversal:
@@ -111,10 +135,7 @@ class BuscadorImagenesUniversal:
             if not documentos:
                 return []
             
-            # Calcular similitud
-            def cosine_similarity(v1, v2):
-                return sum(a*b for a, b in zip(v1, v2))
-            
+            # Usar función de similitud (embeddings reales o fallback)
             resultados = []
             for doc in documentos:
                 # Verificar que tenga imagen
@@ -125,7 +146,7 @@ class BuscadorImagenesUniversal:
                 if not imagen or (isinstance(imagen, list) and len(imagen) == 0):
                     continue
                 
-                score = cosine_similarity(query_embedding, doc['embedding'])
+                score = calcular_similitud(query_embedding, doc['embedding'])
                 
                 # Construir resultado
                 resultado = {
