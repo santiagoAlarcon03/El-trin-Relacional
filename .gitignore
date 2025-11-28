@@ -1,0 +1,97 @@
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# Credenciales y tokens
+config.json
+secrets.json
+credentials.json
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Modelos de ML descargados (muy pesados)
+models/
+*.bin
+*.h5
+*.onnx
+*.pt
+*.pth
+sentence-transformers/
+huggingface/
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Datos sensibles del proyecto
+dataset_json/metadatos.json
+*.csv
+*.xlsx
