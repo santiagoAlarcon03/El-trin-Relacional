@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Imágenes - Óptica El-trin-Relacional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        /* Tabs */
+        .tabs {
+            background: white;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            background: #f0f0f0;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #666;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab:hover {
+            background: #e8e8e8;
+        }
+        
+        .tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .tab-icon {
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .search-box {
+            background: white;
+            border-radius: 0 0 15px 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Text search styles */
+        .search-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        #searchInput {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #searchInput:focus {
+            border-color: #667eea;
+        }
+        
+        /* Image upload styles */
+        .upload-area {
+            border: 3px dashed #ddd;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-bottom: 15px;
+            background: #f9f9f9;
+        }
+        
+        .upload-area:hover {
+            border-color: #667eea;
+            background: #f0f0ff;
+        }
+        
+        .upload-area.dragover {
+            border-color: #667eea;
+            background: #e8e8ff;
+            transform: scale(1.02);
+        }
+        
+        .upload-icon {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .upload-text {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .upload-subtext {
+            font-size: 0.9em;
+            color: #999;
+        }
+        
+        #imageInput {
+            display: none;
+        }
+        
+        .image-preview {
+            display: none;
+            max-width: 100%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .image-preview img {
+            max-width: 400px;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .image-preview-actions {
+            margin-top: 15px;
+        }
+        
+        .btn-remove {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: background 0.3s;
+        }
+        
+        .btn-remove:hover {
+            background: #c0392b;
+        }
+        
+        #searchButton, #searchImageButton {
+            padding: 15px 40px;
+            font-size: 1.1em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+            width: 100%;
+        }
+        
+        #searchButton:hover, #searchImageButton:hover {
+            transform: translateY(-2px);
+        }
+        
+        #searchButton:disabled, #searchImageButton:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .examples {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .example-btn {
+            padding: 8px 15px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        
+        .example-btn:hover {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 1.2em;
+            display: none;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .results {
+            display: none;
+        }
+        
+        .results-header {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .results-header h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .results-info {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background: #f0f0f0;
+        }
+        
+        .product-info {
+            padding: 20px;
+        }
+        
+        .product-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .product-brand {
+            color: #667eea;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        
+        .product-price {
+            font-size: 1.3em;
+            color: #2ecc71;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .similarity-bar {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        
+        .similarity-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .bar-container {
+            background: #f0f0f0;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.5s ease;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 15px;
+            color: #666;
+        }
+        
+        .no-results h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Buscador de Imágenes con CLIP</h1>
+            <p>Encuentra productos por texto o por imagen usando inteligencia artificial</p>
+        </div>
+        
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab active" onclick="cambiarTab('texto')">
+                <span class="tab-icon">✍️</span> Búsqueda por Texto
+            </button>
+            <button class="tab" onclick="cambiarTab('imagen')">
+                <span class="tab-icon">🖼️</span> Búsqueda por Imagen
+            </button>
+        </div>
+        
+        <div class="search-box">
+            <!-- Tab: Búsqueda por texto -->
+            <div id="tab-texto" class="tab-content active">
+                <div class="search-input-group">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Ej: gafas de sol deportivas negras..."
+                        autocomplete="off"
+                    >
+                </div>
+                <button id="searchButton" onclick="buscarPorTexto()">Buscar</button>
+                
+                <div class="examples" style="margin-top: 15px;">
+                    <strong style="margin-right: 10px;">Ejemplos:</strong>
+                    <button class="example-btn" onclick="usarEjemplo(this)">gafas de sol deportivas</button>
+                    <button class="example-btn" onclick="usarEjemplo(this)">monturas elegantes</button>
+                    <button class="example-btn" onclick="usarEjemplo(this)">lentes aviador</button>
+                    <button class="example-btn" onclick="usarEjemplo(this)">solución de limpieza</button>
+                </div>
+            </div>
+            
+            <!-- Tab: Búsqueda por imagen -->
+            <div id="tab-imagen" class="tab-content">
+                <div class="upload-area" id="uploadArea" onclick="document.getElementById('imageInput').click()">
+                    <div class="upload-icon">📸</div>
+                    <div class="upload-text">Haz clic o arrastra una imagen aquí</div>
+                    <div class="upload-subtext">JPG, PNG, GIF - Máximo 10MB</div>
+                </div>
+                <input type="file" id="imageInput" accept="image/*" onchange="previsualizarImagen(event)">
+                
+                <div class="image-preview" id="imagePreview">
+                    <img id="previewImg" src="" alt="Preview">
+                    <div class="image-preview-actions">
+                        <button class="btn-remove" onclick="eliminarImagen()">🗑️ Eliminar imagen</button>
+                    </div>
+                </div>
+                
+                <button id="searchImageButton" onclick="buscarPorImagen()" disabled>Buscar productos similares</button>
+            </div>
+        </div>
+        
+        <div class="error" id="error"></div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Buscando con CLIP...</p>
+        </div>
+        
+        <div class="results" id="results">
+            <div class="results-header">
+                <h2 id="resultsTitle"></h2>
+                <div class="results-info" id="resultsInfo"></div>
+            </div>
+            <div class="results-grid" id="resultsGrid"></div>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        let imagenSeleccionada = null;
+        
+        // Cambiar entre tabs
+        function cambiarTab(tipo) {
+            // Actualizar botones
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            event.target.closest('.tab').classList.add('active');
+            
+            // Actualizar contenido
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(`tab-${tipo}`).classList.add('active');
+            
+            // Limpiar resultados
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+        }
+        
+        // Enter para buscar (texto)
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                buscarPorTexto();
+            }
+        });
+        
+        function usarEjemplo(btn) {
+            document.getElementById('searchInput').value = btn.textContent;
+            buscarPorTexto();
+        }
+        
+        // ============= BÚSQUEDA POR TEXTO =============
+        async function buscarPorTexto() {
+            const query = document.getElementById('searchInput').value.trim();
+            
+            if (!query) {
+                mostrarError('Por favor ingresa una descripción');
+                return;
+            }
+            
+            // UI
+            document.getElementById('searchButton').disabled = true;
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            
+            try {
+                const response = await fetch(`${API_BASE}/search/text-to-image`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        limit: 12,
+                        collection: 'productos'
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                mostrarResultados(data, 'texto');
+                
+            } catch (error) {
+                mostrarError(`Error: ${error.message}`);
+            } finally {
+                document.getElementById('searchButton').disabled = false;
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        // ============= BÚSQUEDA POR IMAGEN =============
+        
+        // Drag & Drop
+        const uploadArea = document.getElementById('uploadArea');
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                const file = files[0];
+                if (file.type.startsWith('image/')) {
+                    document.getElementById('imageInput').files = files;
+                    previsualizarImagen({ target: { files: [file] } });
+                }
+            }
+        });
+        
+        function previsualizarImagen(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            // Validar tamaño (10MB)
+            if (file.size > 10 * 1024 * 1024) {
+                mostrarError('La imagen es muy grande. Máximo 10MB');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('previewImg').src = e.target.result;
+                document.getElementById('imagePreview').style.display = 'block';
+                document.getElementById('uploadArea').style.display = 'none';
+                document.getElementById('searchImageButton').disabled = false;
+                imagenSeleccionada = file;
+            };
+            reader.readAsDataURL(file);
+        }
+        
+        function eliminarImagen() {
+            document.getElementById('imageInput').value = '';
+            document.getElementById('imagePreview').style.display = 'none';
+            document.getElementById('uploadArea').style.display = 'block';
+            document.getElementById('searchImageButton').disabled = true;
+            imagenSeleccionada = null;
+        }
+        
+        async function buscarPorImagen() {
+            if (!imagenSeleccionada) {
+                mostrarError('Por favor selecciona una imagen');
+                return;
+            }
+            
+            // UI
+            document.getElementById('searchImageButton').disabled = true;
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            
+            try {
+                const formData = new FormData();
+                formData.append('image', imagenSeleccionada);
+                formData.append('limit', '12');
+                formData.append('collection', 'productos');
+                
+                const response = await fetch(`${API_BASE}/search/image`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Error ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                mostrarResultados(data, 'imagen');
+                
+            } catch (error) {
+                mostrarError(`Error: ${error.message}`);
+            } finally {
+                document.getElementById('searchImageButton').disabled = false;
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        // ============= MOSTRAR RESULTADOS =============
+        function mostrarResultados(data, tipo) {
+            const resultsDiv = document.getElementById('results');
+            const gridDiv = document.getElementById('resultsGrid');
+            
+            const tipoTexto = tipo === 'texto' ? 'texto' : 'imagen';
+            document.getElementById('resultsTitle').textContent = 
+                tipo === 'texto' 
+                    ? `Resultados para: "${data.query}"` 
+                    : `Productos similares a tu imagen`;
+            document.getElementById('resultsInfo').innerHTML = 
+                `${data.total_results} productos encontrados | ` +
+                `Tiempo: ${data.execution_time_ms.toFixed(0)}ms | ` +
+                `Modelo: ${data.model_used}`;
+            
+            gridDiv.innerHTML = '';
+            
+            if (data.total_results === 0) {
+                gridDiv.innerHTML = `
+                    <div class="no-results" style="grid-column: 1 / -1;">
+                        <h3>😕 No se encontraron resultados</h3>
+                        <p>Intenta con otra ${tipoTexto}</p>
+                    </div>
+                `;
+            } else {
+                data.results.forEach(result => {
+                    const card = crearTarjetaProducto(result);
+                    gridDiv.appendChild(card);
+                });
+            }
+            
+            resultsDiv.style.display = 'block';
+        }
+        
+        function crearTarjetaProducto(result) {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            
+            const content = result.content;
+            const imagenes = content.imagenes || [];
+            const imagenUrl = imagenes[0] || 'https://via.placeholder.com/300x250?text=Sin+Imagen';
+            const score = result.score * 100;
+            
+            card.innerHTML = `
+                <img src="${imagenUrl}" 
+                     alt="${content.nombre_producto}" 
+                     class="product-image"
+                     onerror="this.src='https://via.placeholder.com/300x250?text=Error+Cargando'">
+                <div class="product-info">
+                    <div class="product-name">${content.nombre_producto}</div>
+                    <div class="product-brand">${content.marca}</div>
+                    <div class="product-price">$${formatearPrecio(content.precio_venta)}</div>
+                    <div class="similarity-bar">
+                        <div class="similarity-label">Similitud: ${score.toFixed(1)}%</div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="width: ${score}%"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+        
+        function formatearPrecio(precio) {
+            return parseFloat(precio).toLocaleString('es-CO', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        }
+        
+        function mostrarError(mensaje) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = mensaje;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

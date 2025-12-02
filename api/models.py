@@ -43,6 +43,62 @@ class SearchResponse(BaseModel):
     model_used: str = "all-MiniLM-L6-v2"
 
 
+class ImageSearchRequest(BaseModel):
+    """Request para búsqueda de imágenes similares"""
+    image_url: str = Field(..., description="URL de la imagen de consulta", min_length=1)
+    limit: int = Field(5, description="Número máximo de resultados", ge=1, le=50)
+    collection: str = Field("productos", description="Colección a buscar (solo productos con imágenes)")
+    
+    model_config = {
+        "json_schema_extra": {
+            "examples": [
+                {
+                    "image_url": "https://ejemplo.com/gafas.jpg",
+                    "limit": 5,
+                    "collection": "productos"
+                }
+            ]
+        }
+    }
+
+
+class ImageSearchResponse(BaseModel):
+    """Response de búsqueda de imágenes"""
+    image_url: str
+    total_results: int
+    results: List[SearchResult]
+    execution_time_ms: float
+    model_used: str = "CLIP-ViT-B/32"
+
+
+class TextToImageSearchRequest(BaseModel):
+    """Request para búsqueda texto → imagen con CLIP"""
+    query: str = Field(..., description="Texto describiendo la imagen buscada", min_length=1)
+    limit: int = Field(5, description="Número máximo de resultados", ge=1, le=50)
+    collection: str = Field("productos", description="Colección a buscar")
+    
+    model_config = {
+        "json_schema_extra": {
+            "examples": [
+                {
+                    "query": "gafas de sol deportivas negras",
+                    "limit": 5,
+                    "collection": "productos"
+                }
+            ]
+        }
+    }
+
+
+class TextToImageSearchResponse(BaseModel):
+    """Response de búsqueda texto → imagen"""
+    query: str
+    total_results: int
+    results: List[SearchResult]
+    execution_time_ms: float
+    model_used: str = "CLIP-ViT-B/32"
+
+
 class RAGRequest(BaseModel):
     """Request para sistema RAG completo"""
     query: str = Field(..., description="Pregunta del usuario", min_length=1)

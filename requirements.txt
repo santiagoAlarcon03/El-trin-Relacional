@@ -1,0 +1,40 @@
+# ===============================================
+# Sistema RAG - El-trin-Relacional
+# Python 3.13+ requerido
+# ===============================================
+
+# --- API Framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.10.0
+python-multipart==0.0.12
+
+# --- Base de Datos ---
+pymongo==4.10.1
+motor==3.6.0  # MongoDB async driver
+
+# --- Machine Learning & Embeddings ---
+sentence-transformers==3.3.1
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.46.3
+pillow==11.0.0
+numpy==2.1.3
+
+# --- CLIP para imágenes (multimodal) ---
+open-clip-torch==2.29.0
+
+# --- LLM Integration ---
+groq==0.13.0
+
+# --- Utilidades ---
+python-dotenv==1.0.1
+requests==2.32.3
+
+# --- Testing ---
+pytest==8.3.4
+httpx==0.27.2
+
+# --- Desarrollo ---
+black==24.10.0
+flake8==7.1.1

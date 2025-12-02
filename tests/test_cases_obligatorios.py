@@ -425,6 +425,138 @@ def test_case_4_performance():
 
 
 # ============================================================================
+# TEST CASE 5: Búsqueda de imágenes similares (CLIP)
+# ============================================================================
+def test_case_5_image_similarity_search():
+    """
+    TEST 5: Búsqueda de Imágenes Similares con CLIP
+    - Buscar productos visualmente similares a una imagen de referencia
+    - Validar que retorna al menos 3 resultados
+    - Verificar que los scores sean > 0.15 (15% similitud visual mínima)
+    - Validar que los productos tengan URLs de imágenes
+    """
+    print_header("TEST CASE 5: Búsqueda de Imágenes Similares (CLIP)")
+    
+    # URLs de imágenes de prueba (gafas de diferentes tipos)
+    test_images = [
+        {
+            "url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400",
+            "description": "Gafas de sol clásicas",
+            "min_results": 3
+        },
+        {
+            "url": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=400",
+            "description": "Monturas ópticas modernas",
+            "min_results": 3
+        },
+        {
+            "url": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400",
+            "description": "Gafas formuladas elegantes",
+            "min_results": 3
+        }
+    ]
+    
+    results_summary = []
+    
+    for test_img in test_images:
+        print(f"\n🖼️  Imagen: {test_img['description']}")
+        print(f"   URL: {test_img['url'][:60]}...")
+        print("-" * 80)
+        
+        start_time = time.time()
+        
+        try:
+            response = requests.post(
+                f"{BASE_URL}/search/image",
+                json={
+                    "image_url": test_img['url'],
+                    "limit": 5,
+                    "collection": "productos"
+                },
+                timeout=30  # Más tiempo porque descarga y procesa imagen
+            )
+            
+            elapsed_time = (time.time() - start_time) * 1000
+            
+            if response.status_code == 200:
+                data = response.json()
+                
+                # Validaciones
+                assert data['total_results'] >= test_img['min_results'], \
+                    f"Debe retornar al menos {test_img['min_results']} resultados, obtuvo {data['total_results']}"
+                
+                scores = [r['score'] for r in data['results']]
+                assert all(score >= 0.15 for score in scores), \
+                    f"Todos los scores deben ser >= 0.15 (similitud visual mínima)"
+                
+                # Validar campos de imagen
+                for result in data['results']:
+                    content = result['content']
+                    assert 'nombre_producto' in content, "Debe incluir nombre_producto"
+                    assert 'marca' in content, "Debe incluir marca"
+                
+                print_success(f"PASSED - {data['total_results']} imágenes similares encontradas")
+                print(f"   ⚡ Latencia: {elapsed_time:.2f}ms")
+                print(f"   📊 Score promedio: {statistics.mean(scores):.4f}")
+                print(f"   🎯 Match más similar: {data['results'][0]['content']['nombre_producto']} (Score: {scores[0]:.4f})")
+                print(f"   🖼️  Modelo usado: {data.get('model_used', 'N/A')}")
+                
+                # Mostrar top 3 resultados
+                print(f"\n   🏆 Top 3 productos similares:")
+                for i, result in enumerate(data['results'][:3], 1):
+                    print(f"      {i}. {result['content']['nombre_producto']} - {result['content']['marca']}")
+                    print(f"         Score: {result['score']:.4f}")
+                
+                results_summary.append({
+                    'image': test_img['description'],
+                    'passed': True,
+                    'latency_ms': elapsed_time,
+                    'results': data['total_results'],
+                    'avg_score': statistics.mean(scores)
+                })
+            else:
+                error_detail = response.json().get('detail', 'Unknown error') if response.text else 'No response'
+                print_error(f"FAILED - Status {response.status_code}: {error_detail}")
+                results_summary.append({'image': test_img['description'], 'passed': False})
+                
+        except AssertionError as e:
+            print_error(f"FAILED - {str(e)}")
+            results_summary.append({'image': test_img['description'], 'passed': False})
+        except requests.exceptions.Timeout:
+            print_error(f"TIMEOUT - La búsqueda tomó más de 30 segundos")
+            results_summary.append({'image': test_img['description'], 'passed': False})
+        except Exception as e:
+            print_error(f"ERROR - {str(e)}")
+            results_summary.append({'image': test_img['description'], 'passed': False})
+    
+    # Resumen
+    passed = sum(1 for r in results_summary if r.get('passed', False))
+    total = len(results_summary)
+    
+    print(f"\n{'=' * 80}")
+    print(f"📊 RESUMEN TEST CASE 5: {passed}/{total} búsquedas de imágenes exitosas")
+    
+    if passed > 0:
+        # Estadísticas de latencia
+        latencies = [r['latency_ms'] for r in results_summary if 'latency_ms' in r]
+        if latencies:
+            print(f"   ⚡ Latencia promedio: {statistics.mean(latencies):.2f}ms")
+            print(f"   ⚡ Latencia máxima: {max(latencies):.2f}ms")
+        
+        # Estadísticas de scores
+        scores = [r['avg_score'] for r in results_summary if 'avg_score' in r]
+        if scores:
+            print(f"   📊 Score promedio general: {statistics.mean(scores):.4f}")
+    
+    if passed == total:
+        print_success("TEST CASE 5: PASSED ✓")
+        return True
+    else:
+        print_error("TEST CASE 5: FAILED ✗")
+        return False
+
+
+# ============================================================================
 # EJECUTAR TODOS LOS TESTS
 # ============================================================================
 def run_all_tests():
@@ -454,7 +586,8 @@ def run_all_tests():
         'Test 1': test_case_1_product_search(),
         'Test 2': test_case_2_rag_multimodal(),
         'Test 3': test_case_3_multi_collection_search(),
-        'Test 4': test_case_4_performance()
+        'Test 4': test_case_4_performance(),
+        'Test 5': test_case_5_image_similarity_search()
     }
     
     # Reporte final

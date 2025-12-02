@@ -5,11 +5,14 @@ FastAPI + MongoDB + Sentence-BERT + Groq (Llama 3.1)
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 import sys
 from datetime import datetime
+from pathlib import Path
 
 # Agregar path para imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -77,9 +80,17 @@ async def root():
             "search": "/search",
             "rag": "/rag",
             "health": "/health",
-            "collections": "/collections"
+            "collections": "/collections",
+            "buscador": "/buscador"
         }
     }
+
+
+@app.get("/buscador", tags=["Root"])
+async def buscador_html():
+    """Interfaz web del buscador texto → imagen"""
+    html_path = Path(__file__).parent.parent / "buscador_imagenes.html"
+    return FileResponse(html_path)
 
 
 @app.get("/health", response_model=HealthResponse, tags=["System"])
